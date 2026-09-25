@@ -40,7 +40,7 @@
 
 If this is your first time using GSTE, please read:
 
-[`docs/user/GETTING_STARTED.md`](docs/user/GETTING_STARTED.md)
+[`docs-en/user/GETTING_STARTED.md`](docs-en/user/GETTING_STARTED.md)
 
 Basic workflow:
 
@@ -96,20 +96,20 @@ Generated arrangements may contain issues related to musical quality, rhythm, ha
 **English**
 
 **First-time users:**  
-→ [`docs/user/GETTING_STARTED.md`](docs/user/GETTING_STARTED.md)
+→ [`docs-en/user/GETTING_STARTED.md`](docs-en/user/GETTING_STARTED.md)
 
 **User documentation:**  
-→ [`docs/user/`](docs/user/)
+→ [`docs-en/user/`](docs-en/user/)
 
 **Complete documentation index:**  
-→ [`docs/README.md`](docs/README.md)
+→ [`docs-en/README.md`](docs-en/README.md)
 
 Frequently used documents:
 
-- [`docs/user/OUTPUT_GUIDE.md`](docs/user/OUTPUT_GUIDE.md) — Understanding conversion output
-- [`docs/user/TROUBLESHOOTING.md`](docs/user/TROUBLESHOOTING.md) — Troubleshooting and failed conversions
-- [`docs/user/CURRENT_LIMITATIONS.md`](docs/user/CURRENT_LIMITATIONS.md) — Current Beta limitations
-- [`docs/user/ISSUE_REPORT_GUIDE.md`](docs/user/ISSUE_REPORT_GUIDE.md) — How to report an issue
+- [`docs-en/user/OUTPUT_GUIDE.md`](docs-en/user/OUTPUT_GUIDE.md) — Understanding conversion output
+- [`docs-en/user/TROUBLESHOOTING.md`](docs-en/user/TROUBLESHOOTING.md) — Troubleshooting and failed conversions
+- [`docs-en/user/CURRENT_LIMITATIONS.md`](docs-en/user/CURRENT_LIMITATIONS.md) — Current Beta limitations
+- [`docs-en/user/ISSUE_REPORT_GUIDE.md`](docs-en/user/ISSUE_REPORT_GUIDE.md) — How to report an issue
 
 ---
 
