@@ -1,5 +1,8 @@
 # GSTE Beta V0.2 — 安裝與 GUI 使用指南
 
+[繁體中文](#繁體中文) · [English](#english)
+
+## 繁體中文
 ## 1. 安裝與啟動
 
 1. 從 GSTE 官方 GitHub Release 取得目前版本的 Windows 安裝檔。
@@ -40,13 +43,7 @@ GSTE 主要使用 `.musicxml` / `.xml`。
 
 指定輸出位置後按「開始轉換 / Convert」。以下為常見名稱示意，實際內容依轉換結果而定：
 
-```text
-歌曲名稱_GSTE/
-├─ GSTE_TAB.musicxml
-├─ CONVERSION_REPORT.md
-├─ PRIVACY_SAFE_DEBUG_REPORT.md
-└─ debug/
-```
+常見結果包含 `GSTE_TAB.musicxml`、`CONVERSION_REPORT.md`、`PRIVACY_SAFE_DEBUG_REPORT.md` 與 `debug/`，存放於該次結果資料夾；詳見 [輸出指南](OUTPUT_GUIDE.md)。
 
 ## 4. 轉換後一定要做的事
 
@@ -66,3 +63,54 @@ GSTE 主要使用 `.musicxml` / `.xml`。
 請只輸入、分享或公開你具有相應權利的樂譜。
 
 「作品本身是 Public Domain」與「你下載的那一份 MusicXML 可以自由再散布」是不同問題。若無法確認特定來源檔的授權，請不要把該來源 MusicXML 隨 GSTE Demo 或問題回報公開散布。
+
+## English
+
+### 1. Installation and launch
+
+1. Obtain the current Windows installer from the official GSTE GitHub Release.
+2. Run the installer and follow its prompts.
+3. Launch GSTE after installation. Shortcut creation depends on installation options; the recorded review did not execute the installer. The reviewed script sets PrivilegesRequired=admin, so Setup requests administrator privileges.
+
+Installer: GSTE_Beta_V0.2_Setup.exe. Portable: fully extract GSTE_Beta_V0.2_Portable.zip into a dedicated folder, then launch GSTE.exe. Keep the other DLL and Tcl/Tk files alongside it; do not move only the EXE. The reviewed package is Windows x64.
+
+Back up inputs before conversion. Use a dedicated empty output folder rather than a folder containing other important files.
+
+End users do not need to install Python separately. When updating, use the version and filenames displayed in the GitHub Release, rather than an old post or demo package.
+
+### 2. Preparing MusicXML input
+
+The main supported extensions are .musicxml / .xml.
+
+**Two-hand Piano mode:** prepare separate right-hand / melody and left-hand / accompaniment files. This mode works best when melody is mainly in the right hand and bass, harmony or accompaniment mainly in the left.
+
+Do not treat scores with melody frequently crossing hands or indispensable notes in both hands as standard Piano input. Even successful output may lose melodic material, damage texture or misrepresent the original structure.
+
+**Melody mode:** select one principal-melody MusicXML file. According to GUI options, use automatic arrangement or **melody-only conversion without generated accompaniment**.
+
+Melody-only conversion aims to retain input notes while assigning guitar positions. It can also provide a foundation for future transfers from other plucked instruments and for reorganizing cross-hand melody. It does not mean complex piano scores can be entered without preparation.
+
+**Group scores:** unavailable in the public Beta.
+
+### 3. Starting conversion
+
+Choose an output location and click Convert. Typical output files include GSTE_TAB.musicxml, CONVERSION_REPORT.md, PRIVACY_SAFE_DEBUG_REPORT.md and a debug/ folder inside the result directory. Actual contents depend on the result. See the [output guide](OUTPUT_GUIDE.md).
+
+### 4. Reviewing the output
+
+Open GSTE_TAB.musicxml in MuseScore or another MusicXML reader. Check:
+
+- Whether the principal melody is retained.
+- Rhythm and sustain / ties.
+- Extra or missing notes.
+- Agreement between TAB and staff notation.
+- Playable fingering and positions.
+- Successful loading and playback.
+
+**GSTE success is not a manual score-validation pass.**
+
+### 5. Scores and copyright
+
+Input, share or publish only scores for which you have the required rights.
+
+A public-domain composition and a freely redistributable downloaded MusicXML edition are separate issues. If the edition's rights cannot be confirmed, do not distribute that source file publicly with a GSTE demo or issue report.

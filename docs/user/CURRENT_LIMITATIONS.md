@@ -1,5 +1,8 @@
 # GSTE Beta V0.2 — 目前限制與使用注意事項
 
+[繁體中文](#繁體中文) · [English](#english)
+
+## 繁體中文
 GSTE 仍處於 Beta。公開版本的目標是逐步驗證轉換正確性、穩定性、可除錯性與指彈吉他配置，而不是宣稱所有 MusicXML 都能自動產生完成品。
 
 ## 目前限制
@@ -20,3 +23,26 @@ GSTE 仍處於 Beta。公開版本的目標是逐步驗證轉換正確性、穩�
 遇到不符合目前 Piano 假設的作品時，不應持續強迫同一路徑產生結果。可先重新整理主旋律／角色資料，再評估使用 Melody 或僅主旋律路徑。
 
 若某首作品在新版發生 regression，請保留輸入、版本號與 Privacy-Safe report，並先確認其他既有測試曲是否受到相同修改影響。
+
+## English
+
+GSTE Beta V0.2 aims to validate conversion accuracy, stability, diagnosability and fingerstyle-guitar placement. It does not claim to turn every MusicXML score into a finished arrangement.
+
+### Current limitations
+
+- MusicXML (.musicxml / .xml) is the main input format.
+- Public workflows are Piano and Melody; group-score processing is not available.
+- Piano mode assumes melody is mainly in the right hand and bass, harmony or accompaniment mainly in the left.
+- **Melody crossing hands, indispensable material in both hands, complex polyphony or heavy dependence on piano sustain may be unsuitable for direct Piano input.**
+- Moonlight Sonata, first movement, is a known unsuitable successful-demo candidate for this Piano workflow and is not included in the public successful set.
+- Melody mode can use automatic accompaniment or melody-only conversion without accompaniment, according to GUI options.
+- Melody-only conversion still obeys guitar range, simultaneous-note, position and fingering limits. It does not guarantee that all input notes can be placed without changes.
+- Automatic arrangement may still produce musical, rhythmic, harmonic, accompaniment-density, sustain, position, fingering or layout problems.
+- Reopen MusicXML exports in an external reader. Writing a file successfully does not prove correct notation serialization.
+- Conversion success does not mean the work is ready for performance or publication.
+
+### Recommended handling
+
+Do not repeatedly force scores outside Piano mode's assumptions through that workflow. Reorganize the melody / role material and consider Melody or melody-only input.
+
+If a score regresses in a newer version, retain its input, version identifier and privacy-safe report. Check whether the same change also affects existing test pieces.

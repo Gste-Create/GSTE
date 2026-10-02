@@ -23,3 +23,5 @@ When reporting an issue to the GSTE maintainer, **submitting a score does not au
 Public repository Issues, Pull Requests, general logs, test results, and documentation may be reviewed with AI assistance. Do not submit passwords, API keys, tokens, sensitive personal information, confidential company data, proprietary source code, or scores you are not authorized to share.
 
 分享任何報告前，請先檢查與遮蔽敏感內容；本次二進位檢查未驗證所有診斷去識別化路徑。
+
+Inspect and redact sensitive content before sharing any report. The recorded binary review did not verify every diagnostic anonymization path.

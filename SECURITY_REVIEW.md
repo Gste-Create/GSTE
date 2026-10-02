@@ -1,4 +1,8 @@
 # GSTE Beta V0.2 安全、隱私與授權檢查
+
+[繁體中文](#繁體中文) · [English](#english)
+
+## 繁體中文
 檢查日期：2026-10-02。對象：本次附件的 Setup.exe、Portable.zip、其中 GSTE.exe 及 V0.1.1 文件包。
 
 ## 結論
@@ -58,3 +62,77 @@ Setup.exe 與 GSTE.exe 的 PE certificate table 欄位皆為 0，本次沒有看
 ### 驗證紀錄
 直接執行既有三個 output/package/privacy trace contract 測試函式均通過；本環境無 pytest，未執行完整 pytest suite。另做實際精簡 JSON 生成一致性比對與合成字串透傳檢查。這三個既有測試本身只驗證介面／原始碼文字，不能當作去識別化或程式安全認證。
 新增文件 AI_SHARING_GUIDE.md，清楚區分「不提供音高／和弦／逐音節奏」與「連推導統計都不提供」。本次僅更新文件，未修改 source／EXE／安裝腳本。
+
+## English
+
+Review date: 2026-10-02. Scope: the supplied Setup.exe, Portable.zip, its GSTE.exe, and the V0.1.1 documentation package. Historical version names identify the reviewed artifacts, not the version of this guide.
+
+### Conclusion
+
+No clearly identifiable GSTE malicious commands, developer-specific user paths or obvious service keys were found in the readable strings and packaging inventory. This was limited static observation of binaries and cannot exclude hidden, encoded, dynamically assembled or runtime behavior. It does not justify claims that the application cannot harm a computer, is fully non-infringing or has no personal-data risks.
+
+Current recorded assessment: documentation was corrected; binary safety and release licensing remain incompletely verified.
+
+### Observations and outstanding checks
+
+| Item | Recorded evidence | Assessment / next step |
+|---|---|---|
+| Packaging | GSTE.exe is Windows x64 PE with Nuitka module-loader strings, not readable Python source. | Obtain matching build source, dependencies and installer scripts. |
+| Privileges | GSTE.exe manifest: asInvoker. | Main application does not request elevation in its manifest; installer privileges and actual behavior need separate tests. |
+| File cleanup | GUI/output_packaging constants include rmtree, unlink, move and copy2. | Apparently output organization; verify path guards, links, same-path cases and exception handling, limiting cleanup to the current workspace. |
+| External processes | GUI strings include subprocess and startfile. | Possibly opening results; check shell=True, command construction and untrusted-input execution. |
+| Network | Python socket/SSL and an internal demo_service description mentioning CLI/web callers. | Neither library presence nor absence of visible URLs establishes uploads or offline behavior. Test conversion offline and monitor traffic. |
+| Diagnostic privacy | privacy_safe_debug, public_musicxml_sanitizer and lifecycle components exist. | The initial binary-only review had no generator or actual output and could not verify full redaction. See the later source/sample supplement below. |
+| Personal-data strings | Limited ASCII/UTF-16 searches found no obvious developer C:\Users paths or common GitHub/OpenAI key prefixes. | Only limited patterns were checked. Upstream author attribution, emails and copyright notices are license information and should be retained. |
+| Music assets | No separate MusicXML/MIDI demo files in the Portable inventory. | This does not exclude embedded material, unauthorized code or repository demos. |
+| Third-party notices | Only tk/license.terms found in the original package; Python 3.11.9 and OpenSSL 3.0.13 strings observed. | Complete notices did not accompany the binaries. Available documents were added here; Tcl, VC runtime and actual Nuitka build still need verification. |
+| Version consistency | APP_NAME=GSTE Beta V0.2; VERSION=group_V0.1; some prompts say Beta V0.1 and reports V0.1.3. | Align title, reports, terms and installer in a future build. Documentation cannot change EXE strings. |
+
+### Checks not performed in the recorded review
+
+Windows install/uninstall, GUI conversion, network/registry/filesystem monitoring and Defender/other antivirus scans were not performed. There was no full line-by-line source review, malicious-input testing, comprehensive dependency CVE comparison or source-to-binary equivalence verification. Old readable Python/OpenSSL version strings neither prove an exploitable vulnerability nor establish that the components have been updated.
+
+Setup.exe and GSTE.exe both had PE certificate-table fields of zero, so no embedded Authenticode signature was observed. External catalog signing was not verified. See CHECKSUMS.json. An unsigned file is not automatically malware, but it cannot be authenticated through an embedded publisher signature.
+
+### Materials and tests needed to complete verification
+
+1. Supply the complete matching V0.2 source, requirements/lock/build report, installer scripts and actual build commands; first establish build identity or hashes.
+2. Review deletion, overwrite, extraction, subprocess, XML/MXL parsing, diagnostic text and metadata-sanitization paths. Limit input size and expanded data, and check that failures leave source and unrelated files intact.
+3. Test installer, Portable and uninstall behavior on a clean Windows VM under normal permissions. Monitor traffic, registry changes and files outside the work directory. Add privacy cases with names, user paths, lyrics and source metadata.
+4. Scan the actual final artifacts with Windows Defender and verify their SHA-256 after repackaging. Do not ask users to disable antivirus or general security protections to launch the application.
+5. Complete license notices and authorized redistribution sources for the actual dependencies, including the installed and Portable packages. These documents do not prove the absence of copied third-party source code.
+
+### Music rights
+
+A public-domain composition does not automatically free a particular arrangement, digital edition, performance recording or added content for redistribution. Publishing only transformed output does not eliminate source-arrangement rights. Format conversion is not permission to publish.
+
+The original binary review did not cover demos. A separate 2026-10-03 review checked source statements and the supplied provenance chain for selected public demos; see demo/DEMO_LICENSE_INDEX.json. That review does not alter binary-security conclusions.
+
+### References
+
+- [Python 3.11 license](https://docs.python.org/3.11/license.html); the v3.11.9 source LICENSE and incorporated-software document are included.
+- [OpenSSL licensing](https://openssl-library.org/source/license/index.html); see licenses/SOURCES.json for retrieved materials.
+- [Nuitka documentation](https://nuitka.net/user-documentation/user-manual.html).
+- [US Copyright Office derivative-works circular](https://www.copyright.gov/circs/circ14.pdf), for general principles rather than a Taiwan-specific legal conclusion.
+
+The review updated documents only. It did not modify EXE/DLL files or the algorithm, rebuild the installer or complete security certification.
+
+### Source and actual diagnostic-package supplement (2026-10-02)
+
+Additional supplied material was GSTE_group_V0.2_GUI_InstallerName_Fixed(1).zip, licenses.zip and a Chopin diagnostic package. Bit-for-bit reconstruction of the existing EXE from this source was not established.
+
+- Static src import scans found no requests, urllib, socket, http, ftplib, smtplib, winreg or pickle. Desktop external opening uses os.startfile or argument-list Popen; shell=True was not seen. Limited scans are not dynamic safety tests.
+- GUI _new_run_dir creates an input-stem-named independent directory and adds a sequence number if it exists. Cleanup is concentrated in work output and debug/pipeline_output. API/CLI can accept existing output_dir; packaging moves files outside ROOT_KEEP and deletes existing same-named targets without observed complete path/link guards. Normal GUI directory isolation is clearer, but arbitrary API inputs are not guaranteed safe. Retain the dedicated-output-folder recommendation.
+- The Inno script sets PrivilegesRequired=admin. Registry reads check an installed identical version. Main manifest asInvoker and installer elevation are separate matters.
+- build_windows.bat downloads tools through pip/Nuitka and clears project dist/release. This is a developer build operation, not an end-user step. Dependencies are not pinned precisely enough to claim reproducible builds.
+- No license-copy step before Portable creation was observed. Rebuilding is needed to include missing notices. Supplied licenses.zip matched the prior document-package materials exactly.
+- The supplied source project contains eight separate XML/MusicXML files. Their rights were not checked individually. Do not treat the entire source ZIP as a public package without music. It was not modified or published in this review.
+- The reduced JSON was regenerated with build_privacy_safe_debug_report from the same ENGINEER_DEBUG_SUMMARY and matched exactly. It omits per-note pitch/time but retains 108 anonymous regions' diagnostic and candidate statistics.
+- Despite its privacy-safe description, EVENT_LIFECYCLE_TRACE exports onset/release, roles, sustain and event order, revealing rhythm. Documentation excludes it from default reports that omit musical content.
+- The generator restricts fields but not all string values. Synthetic sensitive sentinels in status/flags/area passed through to output, demonstrating string propagation rather than an actual leak in this sample. Future code should apply value allowlists and appropriate tests.
+
+### Recorded validation
+
+Three existing output/package/privacy-trace contract test functions passed when called directly. pytest was unavailable, so the full suite was not run. Actual reduced-JSON equality and synthetic string propagation were also checked. Those three tests cover interfaces/source text only, not anonymization or security certification.
+
+AI_SHARING_GUIDE.md distinguishes omission of pitches/harmony/per-note timing from omission of all derived statistics. These recorded checks updated documents only, not source, EXE or installer scripts. The current bilingual revision translates that record; it does not rerun or extend the binary tests.

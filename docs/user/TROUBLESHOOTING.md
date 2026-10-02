@@ -1,5 +1,8 @@
 # GSTE Beta V0.2 — 常見問題
 
+[繁體中文](#繁體中文) · [English](#english)
+
+## 繁體中文
 ## 程式無法啟動
 
 重新啟動電腦可以排除暫時性的程序鎖定，但不是標準修復方式。若持續無法啟動，請記錄 Windows 版本、GSTE 版本與發生情況後回報。
@@ -21,3 +24,27 @@
 ## 輸出 MusicXML 無法正常顯示
 
 如果 GSTE 顯示完成，但 MuseScore／Soundslice 開啟後只有休止符、缺音、延音錯誤或無法載入，請保留該輸出並回報。這類問題屬於輸出格式／重新解析驗證的一部分，不應靠逐曲特殊修補取代共同根因修正。
+
+## English
+
+### Application does not start
+
+Restarting the computer may clear a temporary process lock but is not a standard fix. If the issue continues, report the Windows version, GSTE version and circumstances.
+
+### Conversion fails
+
+Check that a normal score reader can open the MusicXML, and that the input mode and files are correct. Look for ERROR_REPORT.md and PRIVACY_SAFE_DEBUG_REPORT.md.
+
+### Conversion succeeds but the result is unsuitable
+
+Check whether the score fits the selected mode:
+
+- Piano: is the melody mainly in the right hand?
+- Melody: have you prepared the principal notes you want to retain?
+- Melody-only: do you want no generated accompaniment?
+
+When melody frequently crosses hands, unsuitable Piano output may reflect the workflow's design assumptions rather than a single minor bug.
+
+### Exported MusicXML does not display correctly
+
+If GSTE completes but MuseScore / Soundslice shows only rests, missing notes, tie errors or a loading failure, retain the output and report it. This concerns export-format and reparse validation. Per-song patches should not replace investigation of the shared root cause.

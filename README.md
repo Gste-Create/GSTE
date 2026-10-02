@@ -1,5 +1,8 @@
 # GSTE — Guitar Score Transcription Engine
 
+[繁體中文](#繁體中文) · [English](#english)
+
+## 繁體中文
 **GSTE Beta V0.2** 是一套將 MusicXML 樂譜轉換為可供人工檢查與後續編修的 **指彈吉他（fingerstyle guitar）TAB / MusicXML** 的桌面軟體。
 
 > Beta 版本以功能驗證與回報實際結果為主。轉換成功代表程式完成處理並產生輸出，不代表編曲、節奏、指法或樂譜格式在所有作品上皆已保證正確。
@@ -46,16 +49,59 @@ GSTE 產生的樂譜應標示為 **GSTE-generated output / GSTE 轉換結果**�
 
 ---
 
-## English summary
-
-GSTE Beta V0.2 converts MusicXML into fingerstyle-guitar TAB/MusicXML for review and further editing. Piano mode is currently best suited to scores where the principal melody is mainly in the right hand and the left hand primarily supplies bass, harmony, or accompaniment. Scores with essential melodic material distributed across both hands may not convert reliably with the current Piano workflow.
-
-A successful conversion only means that GSTE completed processing and produced output. Always review the generated score before performance, publication, or redistribution.
-
-For public demos, the public-domain status of the underlying composition does not by itself establish redistribution rights for a particular digital score file. Publish source/input files only when the rights of that specific edition/file are sufficiently clear.
 
 ## 本次檢查與發布狀態
 請閱讀 SECURITY_REVIEW.md。尚不能宣稱此二進位已獲無惡意程式、零個資風險或不侵權認證。MIDI 未確認為公開功能，團譜仍未開放。
 
 ## 不提供音樂內容的回報
 預設只提供檢查後的 PRIVACY_SAFE_DEBUG_REPORT.md，必要時加 CONVERSION_REPORT.md。EVENT_LIFECYCLE_TRACE 含逐音節奏，不在這個範圍。完整分類見 [docs/user/AI_SHARING_GUIDE.md](docs/user/AI_SHARING_GUIDE.md)。
+
+## English
+
+GSTE Beta V0.2 is a desktop application that converts MusicXML scores into fingerstyle-guitar TAB / MusicXML for manual review and further editing.
+
+> This Beta focuses on validating features and collecting real conversion results. A successful conversion means processing completed and an output was generated; it does not guarantee arrangement, rhythm, fingering or notation correctness for every work.
+
+### Supported workflows
+
+- **Two-hand Piano mode:** supply separate right-hand / melody and left-hand / accompaniment MusicXML files, then rearrange them for fingerstyle guitar.
+- **Melody mode:** supply a melody MusicXML file and select the options available in the GUI.
+- **Melody-only conversion:** convert without GSTE-generated accompaniment, for preserving input notes and assigning them to guitar positions.
+- MusicXML / TAB output. The desktop workflow is designed for local conversion; network behavior has not been dynamically verified in the recorded review.
+- Group-score processing is not available in the public release.
+
+### Important limitations
+
+Piano mode is intended primarily for scores where the melody is mainly in the right hand and the left hand supplies bass, harmony or accompaniment. Results may be unsuitable when essential melody frequently crosses hands, both hands contain indispensable melodic material, or the texture depends heavily on piano sustain and multiple voices.
+
+Moonlight Sonata, first movement, is therefore not included as a successful Piano demo. Where appropriate, reorganize such material into a single input and try melody-only conversion without automatic accompaniment, then review the result manually.
+
+Generating a MusicXML file successfully is not a musical-quality or playability approval. Open the output in MuseScore or another MusicXML reader before performance, publication or redistribution.
+
+### Quick start
+
+Read the bilingual [installation and GUI guide](docs/user/GETTING_STARTED.md). Workflow: MusicXML → GSTE → GSTE_TAB.musicxml → manual review.
+
+### Demo policy
+
+The repository includes **9 successful conversions (8 Melody, 1 Piano)** with matching inputs and source materials selected after source-rights review. See the [demo list](demo/README.md) and [rights index](demo/DEMO_LICENSE_INDEX.md). These cases have not all passed a manual musical-quality review. Works unsuitable for the current algorithm or with unclear source rights were excluded.
+
+A public-domain composition does not automatically make a particular downloaded digital edition redistributable. Publish inputs only when that edition has an identifiable public-domain declaration, CC0 dedication or another applicable permission to redistribute. Do not publish inputs with unclear source rights.
+
+Label generated scores **GSTE-generated output**, not the composer's original guitar arrangement.
+
+### Reporting problems
+
+Inspect and redact sensitive information, then provide PRIVACY_SAFE_DEBUG_REPORT.md and describe what happened. You do not need to guess which algorithm layer failed. See the [issue reporting guide](docs/user/ISSUE_REPORT_GUIDE.md).
+
+### Music rights
+
+Users must have the rights required to input, modify, perform, publish and distribute the work and its particular score edition. Availability for download is not permission to redistribute.
+
+### Recorded review and release status
+
+Read [SECURITY_REVIEW.md](SECURITY_REVIEW.md). The reviewed binaries have not been certified malware-free, free of personal-data risks or non-infringing. MIDI is not confirmed as a public feature; group-score processing remains unavailable.
+
+### Reporting without musical content
+
+Share only the inspected PRIVACY_SAFE_DEBUG_REPORT.md by default, and add an inspected CONVERSION_REPORT.md if needed. EVENT_LIFECYCLE_TRACE contains per-note timing and is outside that scope. See the [AI sharing guide](docs/user/AI_SHARING_GUIDE.md) for the full classification.
