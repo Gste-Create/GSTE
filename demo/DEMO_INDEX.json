@@ -1,0 +1,209 @@
+{
+  "schema": "GSTE_PUBLIC_DEMO_INDEX_V1",
+  "updated": "2026-10-03",
+  "source": "Supplied successful conversions, selected after source-rights review",
+  "success_count": 9,
+  "scores": [
+    {
+      "category": "melody",
+      "name": "01_bach_bwv1002",
+      "score": "melody/01_bach_bwv1002/GSTE_TAB.musicxml",
+      "report": "melody/01_bach_bwv1002/CONVERSION_REPORT.md",
+      "sha256": "eb21772ae3df22b5cac9c69266a0e38181a5ecde4cbbcddeab9e04a42234a3ab",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "melody/01_bach_bwv1002/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/01_bach_bwv1002/SOURCE_LICENSE.md",
+        "melody/01_bach_bwv1002/source/SOURCE_INFO.txt",
+        "melody/01_bach_bwv1002/source/license_evidence/header.ly",
+        "melody/01_bach_bwv1002/source/partita-1-lys.zip",
+        "melody/01_bach_bwv1002/source/partita-1-mids.zip",
+        "melody/01_bach_bwv1002/source/reference_full_score.musicxml"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "melody/01_bach_bwv1002/SOURCE_LICENSE.md"
+    },
+    {
+      "category": "melody",
+      "name": "02_Bach - Cello Suite No.1 BWV1007_MELODY_Cello_R100",
+      "score": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/GSTE_TAB.musicxml",
+      "report": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/CONVERSION_REPORT.md",
+      "sha256": "0b1206fa6a26b53151462917ba903f8a80e75f470543e83041e05b869ef01167",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/SOURCE_LICENSE.md",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/bwv1007-lys.zip",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/bwv1007-mids.zip",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/license_evidence/header.ily",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/reference_full_score.musicxml"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/SOURCE_LICENSE.md"
+    },
+    {
+      "category": "melody",
+      "name": "02_vivaldi_op3",
+      "score": "melody/02_vivaldi_op3/GSTE_TAB.musicxml",
+      "report": "melody/02_vivaldi_op3/CONVERSION_REPORT.md",
+      "sha256": "760a5eef0e23d12ea0535e3978744d6f1fc1c0e378d4c1150aedc0e39ed57371",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "melody/02_vivaldi_op3/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/02_vivaldi_op3/SOURCE_LICENSE.md",
+        "melody/02_vivaldi_op3/source/SOURCE_INFO.txt",
+        "melody/02_vivaldi_op3/source/license_evidence/header.ily",
+        "melody/02_vivaldi_op3/source/reference_full_score.musicxml",
+        "melody/02_vivaldi_op3/source/vivaldi-o3-lys.zip",
+        "melody/02_vivaldi_op3/source/vivaldi-o3-mids.zip"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "melody/02_vivaldi_op3/SOURCE_LICENSE.md"
+    },
+    {
+      "category": "melody",
+      "name": "03_Bach - Cello Suite No.3 BWV1009_MELODY_Cello_R100",
+      "score": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/GSTE_TAB.musicxml",
+      "report": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/CONVERSION_REPORT.md",
+      "sha256": "52cf290dc3c498a2696deac2e6419661140fd60a0499b183113f0688779e1358",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/SOURCE_LICENSE.md",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/cellosuite3-lys.zip",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/cellosuite3-mids.zip",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/license_evidence/header.ily",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/reference_full_score.musicxml"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/SOURCE_LICENSE.md"
+    },
+    {
+      "category": "melody",
+      "name": "04_Bach - Cello Suite No.4 BWV1010_MELODY_Cello_R100",
+      "score": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/GSTE_TAB.musicxml",
+      "report": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/CONVERSION_REPORT.md",
+      "sha256": "8c32dc5e10f419e6c2485799cf592852d848f1505503600aec2739b21ac73efb",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/SOURCE_LICENSE.md",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/bwv1010-lys.zip",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/bwv1010-mids.zip",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/license_evidence/header.ily",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/reference_full_score.musicxml"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/SOURCE_LICENSE.md"
+    },
+    {
+      "category": "melody",
+      "name": "05_Bach - Cello Suite No.5 BWV1011_MELODY_Cello_R100",
+      "score": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/GSTE_TAB.musicxml",
+      "report": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/CONVERSION_REPORT.md",
+      "sha256": "1ce05afc757b26e4adbc43deef8788e0d1eacc260252e609f646f29d9bf9be7e",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/SOURCE_LICENSE.md",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/bwv1011-lys.zip",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/bwv1011-mids.zip",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/license_evidence/bwv1011-viola_original.ly",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/license_evidence/bwv1011.ly",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/reference_full_score.musicxml"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/SOURCE_LICENSE.md"
+    },
+    {
+      "category": "melody",
+      "name": "06_Mozart - Violin Sonata K.379_MELODY_Violin_R100",
+      "score": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/GSTE_TAB.musicxml",
+      "report": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/CONVERSION_REPORT.md",
+      "sha256": "cc75b74bf0631c1354179c3c7143fd14e6f262c099339692f4378a1800ebae0d",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/SOURCE_LICENSE.md",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/SOURCE_INFO.txt",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/k379-lys.zip",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/k379-mids.zip",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/license_evidence/k379-header.ly",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/reference_full_score.musicxml"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/SOURCE_LICENSE.md"
+    },
+    {
+      "category": "melody",
+      "name": "Beethoven_FurElise_RH_Measure_1-80",
+      "score": "melody/Beethoven_FurElise_RH_Measure_1-80/GSTE_TAB.musicxml",
+      "report": "melody/Beethoven_FurElise_RH_Measure_1-80/CONVERSION_REPORT.md",
+      "sha256": "33384ad1d552b2204f9faea16110c0ad3737af4a0c304f06d2cf52a16d4be955",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "melody/Beethoven_FurElise_RH_Measure_1-80/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/Beethoven_FurElise_RH_Measure_1-80/SOURCE_LICENSE.md",
+        "melody/Beethoven_FurElise_RH_Measure_1-80/source/Beethoven_FurElise_original.musicxml",
+        "melody/Beethoven_FurElise_RH_Measure_1-80/source/SOURCE_INFO.txt"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "melody/Beethoven_FurElise_RH_Measure_1-80/SOURCE_LICENSE.md"
+    },
+    {
+      "category": "piano",
+      "name": "03_Beethoven_FurElise_1-80",
+      "score": "piano/03_Beethoven_FurElise_1-80/GSTE_TAB.musicxml",
+      "report": "piano/03_Beethoven_FurElise_1-80/CONVERSION_REPORT.md",
+      "sha256": "df75439a6f6433e0acd4e35c824dc2dfda9d86b7294f08b80b0fcdd3291791d4",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_FOR_PUBLIC_DEMO",
+      "input_files": [
+        "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_LH_Measure_1-80.musicxml",
+        "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_RH_Measure_1-80.musicxml"
+      ],
+      "source_files": [
+        "piano/03_Beethoven_FurElise_1-80/SOURCE_LICENSE.md"
+      ],
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "source_license": "piano/03_Beethoven_FurElise_1-80/SOURCE_LICENSE.md"
+    }
+  ]
+}

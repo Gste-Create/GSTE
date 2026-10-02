@@ -1,0 +1,8 @@
+Work: Mozart - Violin Sonata K.379（小提琴奏鳴曲 K.379）
+Type: Violin + piano
+Source: Mutopia
+Rights: Public Domain
+Extraction: extract violin staff
+
+- k379-lys.zip | https://www.mutopiaproject.org/ftp/MozartWA/KV379/k379/k379-lys.zip | 22492 bytes
+- k379-mids.zip | https://www.mutopiaproject.org/ftp/MozartWA/KV379/k379/k379-mids.zip | 25296 bytes

@@ -1,0 +1,620 @@
+{
+  "schema": "GSTE_DEMO_INPUT_SOURCE_MAP_V2",
+  "updated": "2026-10-03",
+  "license_authority": "DEMO_LICENSE_INDEX.json",
+  "entries": [
+    {
+      "category": "melody",
+      "name": "01_bach_bwv1002",
+      "actual_inputs": [
+        "melody/01_bach_bwv1002/input/input_melody.musicxml"
+      ],
+      "files": [
+        {
+          "path": "melody/01_bach_bwv1002/CONVERSION_REPORT.md",
+          "sha256": "fdd5d0b8f27bef06c539838aed7988cebd24d0db625b7e469c4ac0e155c314e3"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/GSTE_TAB.musicxml",
+          "sha256": "eb21772ae3df22b5cac9c69266a0e38181a5ecde4cbbcddeab9e04a42234a3ab"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/INPUT_GUIDE.md",
+          "sha256": "46262b7c8dff5afe4733c74a4167818f1adaa718b4dd79d07d7b27211f755b31"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/SOURCE_LICENSE.md",
+          "sha256": "56039cd59f61ceef6ce10085fd8caf092f1507a164129d3fe9b55e789bcca121"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/input/input_melody.musicxml",
+          "sha256": "31efe11377eb0a1391f5269e92c723634bb1e531d68359e9bdb6749da08e0b92"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/source/SOURCE_INFO.txt",
+          "sha256": "3bd6b42242235d8c1b92dca30581924285b2bc023381ac317272f757f4a63c54"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/source/license_evidence/header.ly",
+          "sha256": "28d152ca9889b01ba8b585a101323db79bea2f774e98758a3fdc74bc38d53a60"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/source/partita-1-lys.zip",
+          "sha256": "fe188ad8bce8c6935ad3c2f92c1657b55a9891a1cbda4c0867522683288107cc"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/source/partita-1-mids.zip",
+          "sha256": "cc18258061accad9c3fab474d7fab0b3c3e7cbb56958eb365b3b6c1c359a505c"
+        },
+        {
+          "path": "melody/01_bach_bwv1002/source/reference_full_score.musicxml",
+          "sha256": "1bcba9ba648536d74fa9ee2348aa0183fcc983876eacf773c627ae0f68a94a34"
+        }
+      ],
+      "provenance": {
+        "attachment_byte_match": "ALL_INPUT_AND_SOURCE_SCORE_FILES",
+        "input_to_reference": "EXACT_PITCH_SEQUENCE_MATCH",
+        "input_to_upstream_midi": [
+          {
+            "midi_member": "violin-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": true,
+            "equal_pitch_counts": true
+          }
+        ],
+        "timing_match": [
+          {
+            "midi_member": "violin-1.mid",
+            "track_with_notes_index": 0,
+            "initial_offset_quarters": "0",
+            "pitch_and_onset_match": true
+          }
+        ],
+        "timing_note": "輸入與來源 MIDI 的 pitch/onset 完全一致；不包含音長或演奏詮釋認證。"
+      }
+    },
+    {
+      "category": "melody",
+      "name": "02_Bach - Cello Suite No.1 BWV1007_MELODY_Cello_R100",
+      "actual_inputs": [
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "files": [
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/CONVERSION_REPORT.md",
+          "sha256": "fdd5d0b8f27bef06c539838aed7988cebd24d0db625b7e469c4ac0e155c314e3"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/GSTE_TAB.musicxml",
+          "sha256": "0b1206fa6a26b53151462917ba903f8a80e75f470543e83041e05b869ef01167"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/INPUT_GUIDE.md",
+          "sha256": "46262b7c8dff5afe4733c74a4167818f1adaa718b4dd79d07d7b27211f755b31"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/SOURCE_LICENSE.md",
+          "sha256": "bb945ec8dad6b49ca6bc6f356e33dbcf0bafd18d3f89cf34eac2577ee08a08f5"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/input/input_melody.musicxml",
+          "sha256": "29cd8573fd2d56e7b909807d5574345f735e4d1983c9d8a7b197ee25ff13bca4"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+          "sha256": "089bbbdb09b2c586ead68d9460f26c4444abc19362e1b513c61c5c4e86705542"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/bwv1007-lys.zip",
+          "sha256": "b3497b85f8351fb8812577c7faf49c157ef37876eadc71d76214f92ef10ccf6e"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/bwv1007-mids.zip",
+          "sha256": "57fccefc88f315d90e479ce400a6647fc86fbc2b5cbda64f5f29e6c58ea143ce"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/license_evidence/header.ily",
+          "sha256": "a34148a41096291a39b45e1ab2d73db9bf057b178468e92d8659d176d045e056"
+        },
+        {
+          "path": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/reference_full_score.musicxml",
+          "sha256": "5f38bb2f82761d242c0db4defa7208975c4a8628b84e53e3d243956626b9e783"
+        }
+      ],
+      "provenance": {
+        "attachment_byte_match": "ALL_INPUT_AND_SOURCE_SCORE_FILES",
+        "input_to_reference": "EXACT_PITCH_SEQUENCE_MATCH",
+        "input_to_upstream_midi": [
+          {
+            "midi_member": "bwv1007-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": false,
+            "equal_pitch_counts": true
+          }
+        ],
+        "timing_match": [],
+        "timing_note": "BWV1007 有 2 音、BWV1011 有 1 音的 onset 相差 1/192 四分音符；其他音的 pitch/onset 相同。這是匯入處理差異，未將檔案宣稱為逐位元相同 MIDI。"
+      }
+    },
+    {
+      "category": "melody",
+      "name": "02_vivaldi_op3",
+      "actual_inputs": [
+        "melody/02_vivaldi_op3/input/input_melody.musicxml"
+      ],
+      "files": [
+        {
+          "path": "melody/02_vivaldi_op3/CONVERSION_REPORT.md",
+          "sha256": "fdd5d0b8f27bef06c539838aed7988cebd24d0db625b7e469c4ac0e155c314e3"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/GSTE_TAB.musicxml",
+          "sha256": "760a5eef0e23d12ea0535e3978744d6f1fc1c0e378d4c1150aedc0e39ed57371"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/INPUT_GUIDE.md",
+          "sha256": "46262b7c8dff5afe4733c74a4167818f1adaa718b4dd79d07d7b27211f755b31"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/SOURCE_LICENSE.md",
+          "sha256": "ae6842f349618f5a02ebc7f158e658b00eec2d0ac8470ae47ef17b7dd6c83008"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/input/input_melody.musicxml",
+          "sha256": "2fde16549f7a4e1f1c2e79fc85ad01a62fd5a9f02bfe61c122bb4f0dc2b95bb5"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/source/SOURCE_INFO.txt",
+          "sha256": "c71f157aab54f7d9a3c8a778a05ef770a9440492c6633648a7b5f828fb8f4e2f"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/source/license_evidence/header.ily",
+          "sha256": "ec71250fc4357f8f52d91287d4c2bbbe4f2df4a4cd79e533949b7a86ff5e8d40"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/source/reference_full_score.musicxml",
+          "sha256": "7857391dc4b07463e63b2f742728bf66caf62c76262e80aec2c3b06010d70f69"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/source/vivaldi-o3-lys.zip",
+          "sha256": "30a8d5ebc4a9a31bba3095a36baf483c4b310c3b16eb3aab9425152ea14f9c3c"
+        },
+        {
+          "path": "melody/02_vivaldi_op3/source/vivaldi-o3-mids.zip",
+          "sha256": "a4ada163ab57ec1541a54d0443f56bba1f1c118c357e1dcfc5e689a2f6bbf093"
+        }
+      ],
+      "provenance": {
+        "attachment_byte_match": "ALL_INPUT_AND_SOURCE_SCORE_FILES",
+        "input_to_reference": "EXACT_PITCH_SEQUENCE_MATCH",
+        "input_to_upstream_midi": [
+          {
+            "midi_member": "1/score-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": true,
+            "equal_pitch_counts": true
+          },
+          {
+            "midi_member": "1/violinI-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": true,
+            "equal_pitch_counts": true
+          }
+        ],
+        "timing_match": [
+          {
+            "midi_member": "1/score-1.mid",
+            "track_with_notes_index": 0,
+            "initial_offset_quarters": "0",
+            "pitch_and_onset_match": true
+          },
+          {
+            "midi_member": "1/violinI-1.mid",
+            "track_with_notes_index": 0,
+            "initial_offset_quarters": "0",
+            "pitch_and_onset_match": true
+          }
+        ],
+        "timing_note": "輸入與來源 MIDI 的 pitch/onset 完全一致；不包含音長或演奏詮釋認證。"
+      }
+    },
+    {
+      "category": "melody",
+      "name": "03_Bach - Cello Suite No.3 BWV1009_MELODY_Cello_R100",
+      "actual_inputs": [
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "files": [
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/CONVERSION_REPORT.md",
+          "sha256": "fdd5d0b8f27bef06c539838aed7988cebd24d0db625b7e469c4ac0e155c314e3"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/GSTE_TAB.musicxml",
+          "sha256": "52cf290dc3c498a2696deac2e6419661140fd60a0499b183113f0688779e1358"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/INPUT_GUIDE.md",
+          "sha256": "46262b7c8dff5afe4733c74a4167818f1adaa718b4dd79d07d7b27211f755b31"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/SOURCE_LICENSE.md",
+          "sha256": "009af244dcc166b4929d778ed68f250c4fdece625b5436736ea011c667fd6ec5"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/input/input_melody.musicxml",
+          "sha256": "a90167bd13afbf1735805283d02530d6d65d89ba8dcde8ad82f093877477e88f"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+          "sha256": "e77578c7020ce3b05768e25cace7410e6d5b04a76e7151b41a3979671de994c6"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/cellosuite3-lys.zip",
+          "sha256": "1f00f5807dd93b36a866433d546889565ee93fc4988bb36320f34d81e6cd08c9"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/cellosuite3-mids.zip",
+          "sha256": "e0d28dce2a9b32529088d4b8d2b7859fab5b3fe36209cff63cc9d9b34826356c"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/license_evidence/header.ily",
+          "sha256": "a409d8133b17c315bae44daebe8851bf8618dafd49a9575206da3cbdb5328d3c"
+        },
+        {
+          "path": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/reference_full_score.musicxml",
+          "sha256": "d82e17b4321b6238aaa1a6257de3052621e0ed8b3aed3b44eef345ff0c1f6a68"
+        }
+      ],
+      "provenance": {
+        "attachment_byte_match": "ALL_INPUT_AND_SOURCE_SCORE_FILES",
+        "input_to_reference": "EXACT_PITCH_SEQUENCE_MATCH",
+        "input_to_upstream_midi": [
+          {
+            "midi_member": "cellosuite3-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": false,
+            "equal_pitch_counts": true
+          }
+        ],
+        "timing_match": [
+          {
+            "midi_member": "cellosuite3-1.mid",
+            "track_with_notes_index": 0,
+            "initial_offset_quarters": "0",
+            "pitch_and_onset_match": true
+          }
+        ],
+        "timing_note": "輸入與來源 MIDI 的 pitch/onset 完全一致；不包含音長或演奏詮釋認證。"
+      }
+    },
+    {
+      "category": "melody",
+      "name": "04_Bach - Cello Suite No.4 BWV1010_MELODY_Cello_R100",
+      "actual_inputs": [
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "files": [
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/CONVERSION_REPORT.md",
+          "sha256": "fdd5d0b8f27bef06c539838aed7988cebd24d0db625b7e469c4ac0e155c314e3"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/GSTE_TAB.musicxml",
+          "sha256": "8c32dc5e10f419e6c2485799cf592852d848f1505503600aec2739b21ac73efb"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/INPUT_GUIDE.md",
+          "sha256": "46262b7c8dff5afe4733c74a4167818f1adaa718b4dd79d07d7b27211f755b31"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/SOURCE_LICENSE.md",
+          "sha256": "b840230d4ae032754bc4daaad2e2b09a0ccfc33cf756ee1f0ced1c5db6e67a56"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/input/input_melody.musicxml",
+          "sha256": "90c4cf86edd34419ccfef589a706bf0de0f01b022ba93f33c7585ba8c4db6a99"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+          "sha256": "e089eb3153aff6ab16f7d924ec3fbddc6e14b1a806bdfc53b9e813990cffebd2"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/bwv1010-lys.zip",
+          "sha256": "a3352695090aa55e84037544c39a7dbef050771e16dbccbb2d40d136881a82cf"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/bwv1010-mids.zip",
+          "sha256": "fcdbf44cac6f4addb1afc795c7392a07503ebfe02f11895bd6d1686d34011c9c"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/license_evidence/header.ily",
+          "sha256": "ac957c5903027c0fef140799d8473ce7b095435d49315235168fdd3100f0ba08"
+        },
+        {
+          "path": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/reference_full_score.musicxml",
+          "sha256": "9fcb4d00d4825ec6035a950ac83cf6b7a0541dd99e79e5806e572e270e8fc47d"
+        }
+      ],
+      "provenance": {
+        "attachment_byte_match": "ALL_INPUT_AND_SOURCE_SCORE_FILES",
+        "input_to_reference": "EXACT_PITCH_SEQUENCE_MATCH",
+        "input_to_upstream_midi": [
+          {
+            "midi_member": "bwv1010-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": false,
+            "equal_pitch_counts": true
+          }
+        ],
+        "timing_match": [
+          {
+            "midi_member": "bwv1010-1.mid",
+            "track_with_notes_index": 0,
+            "initial_offset_quarters": "0",
+            "pitch_and_onset_match": true
+          }
+        ],
+        "timing_note": "輸入與來源 MIDI 的 pitch/onset 完全一致；不包含音長或演奏詮釋認證。"
+      }
+    },
+    {
+      "category": "melody",
+      "name": "05_Bach - Cello Suite No.5 BWV1011_MELODY_Cello_R100",
+      "actual_inputs": [
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "files": [
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/CONVERSION_REPORT.md",
+          "sha256": "fdd5d0b8f27bef06c539838aed7988cebd24d0db625b7e469c4ac0e155c314e3"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/GSTE_TAB.musicxml",
+          "sha256": "1ce05afc757b26e4adbc43deef8788e0d1eacc260252e609f646f29d9bf9be7e"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/INPUT_GUIDE.md",
+          "sha256": "46262b7c8dff5afe4733c74a4167818f1adaa718b4dd79d07d7b27211f755b31"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/SOURCE_LICENSE.md",
+          "sha256": "975cf28feca896f2ba9aa220b3b5a8a812140990dd0f0a7c5632c61308617492"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/input/input_melody.musicxml",
+          "sha256": "5ef316b2985fea28b06f4acd972748d4cbe48dce70f66004352b12cbd8c89a06"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+          "sha256": "790c7faf54b5701ca6fa16b4c9bcd741c62ee9fa7b7916d4a12a39295f526857"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/bwv1011-lys.zip",
+          "sha256": "f153f112bef6391b209a731b285c2f27b76b0474d7f26a683e8079bf3b4512e7"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/bwv1011-mids.zip",
+          "sha256": "d93ceae292690c14330b7cf6b3bd95bf879233abeca1d862faca3cba5e9e5585"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/license_evidence/bwv1011-viola_original.ly",
+          "sha256": "16cd50883b556ea67674a5c6935208dbe661111abee8f329f469c32203626faa"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/license_evidence/bwv1011.ly",
+          "sha256": "5a6619d38329f5fa94694d279be2a8ee7558a8abb5bc325c0d3a4a33ab84a7ad"
+        },
+        {
+          "path": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/reference_full_score.musicxml",
+          "sha256": "f9cd843ddeceeb3b53edfb3d11f36c723d1e76d129d43d98270876364c580da5"
+        }
+      ],
+      "provenance": {
+        "attachment_byte_match": "ALL_INPUT_AND_SOURCE_SCORE_FILES",
+        "input_to_reference": "EXACT_PITCH_SEQUENCE_MATCH",
+        "input_to_upstream_midi": [
+          {
+            "midi_member": "bwv1011-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": false,
+            "equal_pitch_counts": true
+          }
+        ],
+        "timing_match": [],
+        "timing_note": "BWV1007 有 2 音、BWV1011 有 1 音的 onset 相差 1/192 四分音符；其他音的 pitch/onset 相同。這是匯入處理差異，未將檔案宣稱為逐位元相同 MIDI。"
+      }
+    },
+    {
+      "category": "melody",
+      "name": "06_Mozart - Violin Sonata K.379_MELODY_Violin_R100",
+      "actual_inputs": [
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/input/input_melody.musicxml"
+      ],
+      "files": [
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/CONVERSION_REPORT.md",
+          "sha256": "fdd5d0b8f27bef06c539838aed7988cebd24d0db625b7e469c4ac0e155c314e3"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/GSTE_TAB.musicxml",
+          "sha256": "cc75b74bf0631c1354179c3c7143fd14e6f262c099339692f4378a1800ebae0d"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/INPUT_GUIDE.md",
+          "sha256": "46262b7c8dff5afe4733c74a4167818f1adaa718b4dd79d07d7b27211f755b31"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/SOURCE_LICENSE.md",
+          "sha256": "eecb0a7cb01e6c9fd777d6f25ab23c7a2cf5968c929bd2f2cdc6468e6f716892"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/input/input_melody.musicxml",
+          "sha256": "5879b7ce9928a39a67e488d61d6d60fc793043728eee4b4736b5c918d093a991"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/SOURCE_INFO.txt",
+          "sha256": "7f3168b766411e9125355883311fe2775c0812f5ab09efdbe02a6dea77ef764b"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/k379-lys.zip",
+          "sha256": "47836a00ef70bdabae05116e5f98ae16909cfbeef4f79ea575b19deeb1edbc8d"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/k379-mids.zip",
+          "sha256": "01c7defa2530fc95332f3119b7d2ea94b01e399902b355a9146dd5369a63b797"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/license_evidence/k379-header.ly",
+          "sha256": "8330e324f8cd2811c6b5b1d8a02b283867efe2cd4cef85f12fc447be3e19a8b1"
+        },
+        {
+          "path": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/reference_full_score.musicxml",
+          "sha256": "b907765d0ac5cc6d697c35b3bfe86972cd4198d47e91d9f0fac54ae864030955"
+        }
+      ],
+      "provenance": {
+        "attachment_byte_match": "ALL_INPUT_AND_SOURCE_SCORE_FILES",
+        "input_to_reference": "EXACT_PITCH_SEQUENCE_MATCH",
+        "input_to_upstream_midi": [
+          {
+            "midi_member": "k379-score-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": false,
+            "equal_pitch_counts": true
+          },
+          {
+            "midi_member": "k379-violin-1.mid",
+            "track_with_notes_index": 0,
+            "exact_pitch_sequence": false,
+            "equal_pitch_counts": true
+          }
+        ],
+        "timing_match": [
+          {
+            "midi_member": "k379-score-1.mid",
+            "track_with_notes_index": 0,
+            "initial_offset_quarters": "0",
+            "pitch_and_onset_match": true
+          },
+          {
+            "midi_member": "k379-violin-1.mid",
+            "track_with_notes_index": 0,
+            "initial_offset_quarters": "0",
+            "pitch_and_onset_match": true
+          }
+        ],
+        "timing_note": "輸入與來源 MIDI 的 pitch/onset 完全一致；不包含音長或演奏詮釋認證。"
+      }
+    },
+    {
+      "category": "melody",
+      "name": "Beethoven_FurElise_RH_Measure_1-80",
+      "actual_inputs": [
+        "melody/Beethoven_FurElise_RH_Measure_1-80/input/input_melody.musicxml"
+      ],
+      "files": [
+        {
+          "path": "melody/Beethoven_FurElise_RH_Measure_1-80/CONVERSION_REPORT.md",
+          "sha256": "fdd5d0b8f27bef06c539838aed7988cebd24d0db625b7e469c4ac0e155c314e3"
+        },
+        {
+          "path": "melody/Beethoven_FurElise_RH_Measure_1-80/GSTE_TAB.musicxml",
+          "sha256": "33384ad1d552b2204f9faea16110c0ad3737af4a0c304f06d2cf52a16d4be955"
+        },
+        {
+          "path": "melody/Beethoven_FurElise_RH_Measure_1-80/INPUT_GUIDE.md",
+          "sha256": "46262b7c8dff5afe4733c74a4167818f1adaa718b4dd79d07d7b27211f755b31"
+        },
+        {
+          "path": "melody/Beethoven_FurElise_RH_Measure_1-80/SOURCE_LICENSE.md",
+          "sha256": "7dc625d4b4f277181ec4942e16878d6f4329d0b9fdde330ed41612fffde2faf8"
+        },
+        {
+          "path": "melody/Beethoven_FurElise_RH_Measure_1-80/input/input_melody.musicxml",
+          "sha256": "5cab9591e581da464cc8edc234b7a6af20521aad51d4683b0816e5e52e8b77b5"
+        },
+        {
+          "path": "melody/Beethoven_FurElise_RH_Measure_1-80/source/Beethoven_FurElise_original.musicxml",
+          "sha256": "f665fc5d0c8ad5c96e7e099a4bf927756d1087ea5a58d0d85816c2e8c3530f5c"
+        },
+        {
+          "path": "melody/Beethoven_FurElise_RH_Measure_1-80/source/SOURCE_INFO.txt",
+          "sha256": "7a9638358a46159aa75b9aa00e1591b2f2e8f79db89622de4fc1c5f77c7fe36f"
+        }
+      ],
+      "provenance": {
+        "original_to_batch_download": "XML_CANONICAL_EQUAL_STRIP_TEXT",
+        "input_to_original": [
+          {
+            "path": "melody/Beethoven_FurElise_RH_Measure_1-80/input/input_melody.musicxml",
+            "original_staff": "1",
+            "measure_range": "first 80 measures",
+            "pitch_sequence_per_measure": "MATCH"
+          }
+        ],
+        "note": "XML canonical equality excludes formatting whitespace; staff comparison checks pitched-note sequence per measure, not full rhythmic equivalence."
+      }
+    },
+    {
+      "category": "piano",
+      "name": "03_Beethoven_FurElise_1-80",
+      "actual_inputs": [
+        "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_LH_Measure_1-80.musicxml",
+        "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_RH_Measure_1-80.musicxml"
+      ],
+      "files": [
+        {
+          "path": "piano/03_Beethoven_FurElise_1-80/CONVERSION_REPORT.md",
+          "sha256": "bb6da4fd3c5098546b9b6bc11ff98864116243f2afe639cda888b85cd8f1e5d3"
+        },
+        {
+          "path": "piano/03_Beethoven_FurElise_1-80/GSTE_TAB.musicxml",
+          "sha256": "df75439a6f6433e0acd4e35c824dc2dfda9d86b7294f08b80b0fcdd3291791d4"
+        },
+        {
+          "path": "piano/03_Beethoven_FurElise_1-80/INPUT_GUIDE.md",
+          "sha256": "5a866403fee720a304de489397e4163ca42ba8c9dfa4f8031adb3b7417d59fa8"
+        },
+        {
+          "path": "piano/03_Beethoven_FurElise_1-80/SOURCE_LICENSE.md",
+          "sha256": "7dc625d4b4f277181ec4942e16878d6f4329d0b9fdde330ed41612fffde2faf8"
+        },
+        {
+          "path": "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_LH_Measure_1-80.musicxml",
+          "sha256": "01e08e20296d4e521af35c4459d8117fee8c5a0fd6bd1d9995745c397ef27896"
+        },
+        {
+          "path": "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_RH_Measure_1-80.musicxml",
+          "sha256": "5cab9591e581da464cc8edc234b7a6af20521aad51d4683b0816e5e52e8b77b5"
+        },
+        {
+          "path": "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_original.musicxml",
+          "sha256": "f665fc5d0c8ad5c96e7e099a4bf927756d1087ea5a58d0d85816c2e8c3530f5c"
+        },
+        {
+          "path": "piano/03_Beethoven_FurElise_1-80/input/SOURCE_INFO.txt",
+          "sha256": "7a9638358a46159aa75b9aa00e1591b2f2e8f79db89622de4fc1c5f77c7fe36f"
+        }
+      ],
+      "provenance": {
+        "original_to_batch_download": "XML_CANONICAL_EQUAL_STRIP_TEXT",
+        "input_to_original": [
+          {
+            "path": "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_LH_Measure_1-80.musicxml",
+            "original_staff": "2",
+            "measure_range": "first 80 measures",
+            "pitch_sequence_per_measure": "MATCH"
+          },
+          {
+            "path": "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_RH_Measure_1-80.musicxml",
+            "original_staff": "1",
+            "measure_range": "first 80 measures",
+            "pitch_sequence_per_measure": "MATCH"
+          }
+        ],
+        "note": "XML canonical equality excludes formatting whitespace; staff comparison checks pitched-note sequence per measure, not full rhythmic equivalence."
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Work: Bach - Cello Suite No.3 BWV1009（第三號無伴奏大提琴組曲）
+Type: Cello solo
+Source: Mutopia
+Rights: Public Domain
+Extraction: solo cello
+
+- cellosuite3-lys.zip | https://www.mutopiaproject.org/ftp/BachJS/BWV1009/cellosuite3/cellosuite3-lys.zip | 20194 bytes
+- cellosuite3-mids.zip | https://www.mutopiaproject.org/ftp/BachJS/BWV1009/cellosuite3/cellosuite3-mids.zip | 27516 bytes
