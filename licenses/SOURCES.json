@@ -1,0 +1,26 @@
+[
+  {
+    "file": "PYTHON-3.11.9-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/python/cpython/v3.11.9/LICENSE",
+    "date": "2026-10-02",
+    "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+  },
+  {
+    "file": "PYTHON-3.11.9-INCORPORATED-SOFTWARE.rst",
+    "url": "https://raw.githubusercontent.com/python/cpython/v3.11.9/Doc/license.rst",
+    "date": "2026-10-02",
+    "sha256": "2b734ec5975b21b29ae8b9756a00fc3dfe701abe51687cec4c98a21c51005bca"
+  },
+  {
+    "file": "OPENSSL-3.0.13-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.0.13/LICENSE.txt",
+    "date": "2026-10-02",
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+  },
+  {
+    "file": "NUITKA-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/Nuitka/Nuitka/develop/LICENSE.txt",
+    "date": "2026-10-02",
+    "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+  }
+]

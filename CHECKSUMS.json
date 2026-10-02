@@ -1,0 +1,21 @@
+[
+  {
+    "file": "GSTE_Beta_V0.2_Setup.exe",
+    "bytes": 12455754,
+    "sha256": "18056474b6c789ca3919f470399380e7795157fc782030f9c6482a8d7a51dc70",
+    "certificate_table_offset": 0,
+    "certificate_table_size": 0
+  },
+  {
+    "file": "GSTE_Beta_V0.2_Portable.zip",
+    "bytes": 15695642,
+    "sha256": "98708abc01c9c1243fa92fb7e2636eca66858f0d5a40341502688543002f4bcc"
+  },
+  {
+    "file": "GSTE.exe",
+    "bytes": 20968960,
+    "sha256": "23e22c336f29f8a3838fc4a538bba8f3c5a849b63aabf5e68b49013867dede25",
+    "certificate_table_offset": 0,
+    "certificate_table_size": 0
+  }
+]

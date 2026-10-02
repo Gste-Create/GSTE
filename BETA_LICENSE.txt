@@ -1,12 +1,12 @@
 GSTE Public Beta 使用條款 / Terms of Use
 
-版本 / Version: Beta V0.1
+版本 / Version: Beta V0.2
 
 > 第三方元件依其各自授權條款提供；詳見 THIRD_PARTY_NOTICES.md。 / Third-party components remain subject to their own licenses; see THIRD_PARTY_NOTICES.md.
 
 中文
 #1. 適用範圍
-本條款適用於 GSTE 專案維護者發布的 GSTE Public Beta V0.1 可執行版本。本 Beta 並非開源發布，本條款不授予 GSTE 原始碼授權。
+本條款適用於 GSTE 專案維護者發布的 GSTE Public Beta V0.2 可執行版本。本 Beta 並非開源發布，本條款不授予 GSTE 原始碼授權。
 
 #2. Beta 使用授權
 在遵守本條款前提下，使用者可安裝及使用 Beta 軟體進行個人評估、測試、研究、教育及內部評估。Beta 屬實驗性版本，不應用於安全關鍵、任務關鍵或正式生產用途。
@@ -31,7 +31,7 @@ GSTE Public Beta 使用條款 / Terms of Use
 
 English
 #1. Scope
-These terms apply to the executable GSTE Public Beta V0.1 distributed by the GSTE project maintainer. This Beta is not an open-source release, and these terms do not grant a license to the GSTE source code.
+These terms apply to the executable GSTE Public Beta V0.2 distributed by the GSTE project maintainer. This Beta is not an open-source release, and these terms do not grant a license to the GSTE source code.
 
 #2. Beta use
 Subject to these terms, users may install and use the Beta for personal evaluation, testing, research, education, and internal evaluation. The Beta is experimental and should not be used for safety-critical, mission-critical, or production purposes.
