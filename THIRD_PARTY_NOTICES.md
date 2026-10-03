@@ -11,7 +11,3 @@ English
 GSTE Beta V0.2 includes third-party software components. These components remain subject to their respective licenses and copyright notices and are not superseded or restricted by the GSTE Beta license terms.
 Third-party components used by or distributed with this release include Python, Tcl/Tk, OpenSSL, Microsoft Visual C++ Runtime, Nuitka, and other third-party components incorporated into Python.
 Relevant third-party licenses and notices are provided in the licenses/ directory. All rights, license terms, and copyrights for these third-party components remain with their respective rights holders.
-
-
-|
-
