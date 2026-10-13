@@ -1,40 +1,40 @@
-# GSTE Beta V0.2 隱私說明
+# GSTE V0.3 隱私說明 / Privacy Notice
 
-[繁體中文](#繁體中文) · [English](#english)
+## 中文
+### 本機處理
+GSTE V0.3 的正常樂譜轉換流程在使用者電腦本機執行，不需要將輸入樂譜提交給 AI。此版本不提供帳號、telemetry、analytics、crash upload 或雲端樂譜處理功能。
 
-## 繁體中文
-## 本機轉換
-本次檢查 src 原始碼的 imports 與相關呼叫，未發現 requests、urllib、socket 等網路傳輸匯入或桌面流程的自動上傳。這是原始碼靜態檢查，未完成 EXE 與 source 的 build 一致性驗證、Windows 網路監測或防毒掃描，因此不是二進位永不連網的保證。建置腳本需要下載 pip／Nuitka 依賴，與使用者桌面轉換是不同流程。
+### 問題回報與診斷
+公開 GitHub Issues、Discussions 或 Pull Requests 應視為公開內容。請勿提交個人敏感資訊、登入憑證、公司機密、無權公開的原始碼或樂譜。
 
-## 診斷與音樂資訊
-**沒有音高，不代表沒有音樂資訊。** EVENT_LIFECYCLE_TRACE 包含逐音 onset/release 與延音段數，不能在不提供節奏資訊時分享。
-本次 PRIVACY_SAFE_DEBUG_REPORT 的 JSON 已由原始碼重新產生，與附件完全一致；本次內容沒有曲名、來源路徑、音高、和弦、歌詞或逐音時間，但含匿名診斷窗口、候選數與問題統計。若連音樂推導統計也不能提供，就不要分享此報告。
-欄位白名單不是所有字串值的白名單；目前產生器會傳遞 status、flags 與 area 字串，未來或非標準輸入仍可能帶入敏感文字。使用者分享前須檢查內容與檔名。
-完整 debug、錯誤文字、MusicXML、音檔、截圖與輸出 ZIP 可能含樂譜或個資，不能預設公開。
+`PRIVACY_SAFE_DEBUG_REPORT.md` 是預設問題回報檔，採白名單輸出並排除曲名、來源檔名/路徑、pitch、chord、note/rhythm sequence、lyrics、part/track 名稱、原始 event/window ID、音樂候選內容與參數值。完整 `debug/` 供本機工程除錯，可能包含較詳細資訊，不應預設公開。
 
-完整選檔表與最少回報方式見 [docs/user/AI_SHARING_GUIDE.md](docs/user/AI_SHARING_GUIDE.md)。
+Privacy-Safe report 是降低資料暴露的技術措施，不是法律或 NDA 保密認證。
 
-## AI 與公開提交
-GSTE 桌面轉換不需要提交樂譜給 AI。公開 GitHub 回報可被他人取得，請只提供有權公開的內容。提供問題或樂譜，不自動授權維護者把另行提供的樂譜轉交第三方 AI；需另外取得該次同意，見 AI_POLICY.md。直接將檔案上傳 AI 則該服務會接收該檔案。
+### AI 協作
+GSTE 執行轉換本身不依賴 AI。專案開發、程式 review、除錯、測試與文件整理可能使用 AI 輔助，但由人類決定需求、版本與發布。使用者提交樂譜並不自動同意 AI 分析；若維護者需要把該樂譜交由第三方 AI 服務協助除錯，應取得該次提交的明確同意。詳見 `AI_POLICY.md`。
+
+若未來加入網路傳輸、帳號、telemetry、analytics 或雲端處理，本文件必須在該功能發布前更新。
 
 ## English
+### Local processing
+Normal score conversion in GSTE V0.3 runs locally on the user's computer and does not require submitting the input score to AI. This release does not provide accounts, telemetry, analytics, crash upload, or cloud score processing.
 
-### Local conversion
+### Issue reports and diagnostics
+Information posted to public GitHub Issues, Discussions, or Pull Requests should be treated as public. Do not submit sensitive personal information, credentials, confidential company data, proprietary source code, or scores you are not authorized to share.
 
-The recorded static review of source imports and relevant calls found no requests, urllib or socket network-transfer imports or automatic upload in the desktop workflow. This does not establish source-to-EXE build equivalence, Windows network monitoring results or antivirus results. It is not a guarantee that the binary never connects to a network. Build scripts download pip / Nuitka dependencies; this is separate from end-user conversion.
+`PRIVACY_SAFE_DEBUG_REPORT.md` is the default issue-report file. It uses an allow-list and excludes score title, source filename/path, pitch, chord, note/rhythm sequences, lyrics, part/track names, raw event/window IDs, musical candidate content, and parameter values. The full `debug/` folder is intended for local engineering diagnostics and may contain more detailed information; it should not be treated as public by default.
 
-### Diagnostics and musical information
+The Privacy-Safe report is a data-minimization measure, not a legal or NDA confidentiality certification.
 
-**No pitch data does not mean no musical information.** EVENT_LIFECYCLE_TRACE contains per-note onset/release and tie-segment counts; do not share it if you do not wish to disclose timing.
+### AI collaboration
+GSTE does not depend on AI to perform score conversion. AI tools may assist project development, code review, debugging, testing, and documentation, while requirements, validation, version decisions, and releases remain human-reviewed. Submitting a score does not automatically authorize AI analysis. If the maintainer needs to provide that score to a third-party AI service for debugging, explicit consent for that submission should be obtained. See `AI_POLICY.md`.
 
-In the recorded review, the sample PRIVACY_SAFE_DEBUG_REPORT JSON was regenerated from the source and matched the supplied report exactly. It contained no work title, source path, pitch, chords, lyrics or per-note times, but retained anonymous diagnostic windows, candidate counts and issue statistics. Do not share it if even music-derived statistics are confidential.
+If future releases add network transmission, accounts, telemetry, analytics, or cloud processing, this notice must be updated before those features are released.
 
-A field allowlist is not an allowlist of all string values. The generator passes status, flags and area strings through; future changes or nonstandard input may introduce sensitive text. Inspect content and filenames before sharing.
 
-Full debug files, error text, MusicXML, audio, screenshots and output ZIPs may contain music or personal data and are not public by default.
+## 新增報告 / New reports
 
-See the [AI sharing guide](docs/user/AI_SHARING_GUIDE.md) for the complete file-selection table and minimal reporting options.
+`HUMAN_REVIEW_REPORT.md`、`MEASURE_LOCATION_GUIDE.md`、`ERROR_REPORT.md`、最終／中間樂譜與完整 `debug/` 不列為預設可分享的精簡檔。原始錯誤文字可能含路徑；位置對照可能揭露來源小節。精簡檔仍須由使用者確認。詳見 [分享指南](docs/user/SHARING_GUIDE.md)。
 
-### AI and public submissions
-
-Desktop conversion does not require sending scores to AI. Public GitHub reports are accessible to other people; share only material you are authorized to publish. Reporting a problem or supplying a score does not automatically authorize the maintainer to forward a separately submitted score to third-party AI. Separate consent for that submission is required; see [AI_POLICY.md](AI_POLICY.md). If you upload a file directly to an AI service, that service receives it.
+Human-review, measure-location, error reports, scores and full diagnostics are not reduced safe-sharing attachments by default. Error strings can contain paths and location maps can expose source numbering. Review reduced reports too.
