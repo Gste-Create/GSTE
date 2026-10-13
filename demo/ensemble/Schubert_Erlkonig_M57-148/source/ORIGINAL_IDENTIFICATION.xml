@@ -1,0 +1,15 @@
+<identification>
+    <creator type="composer">J.Godderis</creator>
+    <rights>JIM Productions</rights>
+    <encoding>
+      <software>MuseScore 2.1.0</software>
+      <encoding-date>2017-08-09</encoding-date>
+      <supports element="accidental" type="yes" />
+      <supports element="beam" type="yes" />
+      <supports element="print" attribute="new-page" type="yes" value="yes" />
+      <supports element="print" attribute="new-system" type="yes" value="yes" />
+      <supports element="stem" type="yes" />
+      </encoding>
+    <source>http://musescore.com/jojo288/erlk-ning</source>
+    </identification>
+  

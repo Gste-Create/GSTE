@@ -1,0 +1,368 @@
+{
+  "schema": "GSTE_PUBLIC_DEMO_INDEX_V1",
+  "updated": "2026-10-09",
+  "engine_version": "0.3.0",
+  "source": "Supplied GSTE V0.3 converted results; publication set only",
+  "success_count": 12,
+  "scores": [
+    {
+      "category": "melody",
+      "name": "01_bach_bwv1002",
+      "score": "melody/01_bach_bwv1002/GSTE_TAB.musicxml",
+      "report": "melody/01_bach_bwv1002/CONVERSION_REPORT.md",
+      "sha256": "3a5d08d267bfcb1e7459fba8ac54db1deecab16bb155bf8e88b4a1c8f8510d54",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "CARRIED_FORWARD_VERIFIED_SOURCE",
+      "input_files": [
+        "melody/01_bach_bwv1002/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/01_bach_bwv1002/SOURCE_LICENSE.md",
+        "melody/01_bach_bwv1002/source/partita-1-mids.zip",
+        "melody/01_bach_bwv1002/source/SOURCE_INFO.txt",
+        "melody/01_bach_bwv1002/source/partita-1-lys.zip",
+        "melody/01_bach_bwv1002/source/reference_full_score.musicxml",
+        "melody/01_bach_bwv1002/source/license_evidence/header.ly"
+      ],
+      "source_license": "melody/01_bach_bwv1002/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "gates": {
+        "G1": "PASS",
+        "G2": "NOT_AVAILABLE",
+        "G3": "PASS",
+        "G4": "PASS"
+      },
+      "input_pairing": "BYTE_IDENTICAL_TO_BATCH_NORMALIZED_INPUT",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "melody",
+      "name": "02_Bach - Cello Suite No.1 BWV1007_MELODY_Cello_R100",
+      "score": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/GSTE_TAB.musicxml",
+      "report": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/CONVERSION_REPORT.md",
+      "sha256": "9b180926af207fe2f9c48605cfb28223e375c72718f70c6371938489021360a8",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "CARRIED_FORWARD_VERIFIED_SOURCE",
+      "input_files": [
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/SOURCE_LICENSE.md",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/bwv1007-mids.zip",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/bwv1007-lys.zip",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/reference_full_score.musicxml",
+        "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/source/license_evidence/header.ily"
+      ],
+      "source_license": "melody/02_Bach_-_Cello_Suite_No.1_BWV1007_MELODY_Cello_R100/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "gates": {
+        "G1": "PASS",
+        "G2": "PASS",
+        "G3": "PASS",
+        "G4": "PASS"
+      },
+      "input_pairing": "BYTE_IDENTICAL_TO_BATCH_NORMALIZED_INPUT",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "melody",
+      "name": "02_vivaldi_op3",
+      "score": "melody/02_vivaldi_op3/GSTE_TAB.musicxml",
+      "report": "melody/02_vivaldi_op3/CONVERSION_REPORT.md",
+      "sha256": "c5bac3db3fd26b09a120a601ccd71952b64ed2b1dc2fd8fe15cb2d9b45fdff55",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "CARRIED_FORWARD_VERIFIED_SOURCE",
+      "input_files": [
+        "melody/02_vivaldi_op3/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/02_vivaldi_op3/SOURCE_LICENSE.md",
+        "melody/02_vivaldi_op3/source/vivaldi-o3-lys.zip",
+        "melody/02_vivaldi_op3/source/SOURCE_INFO.txt",
+        "melody/02_vivaldi_op3/source/vivaldi-o3-mids.zip",
+        "melody/02_vivaldi_op3/source/reference_full_score.musicxml",
+        "melody/02_vivaldi_op3/source/license_evidence/header.ily"
+      ],
+      "source_license": "melody/02_vivaldi_op3/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "gates": {
+        "G1": "PASS",
+        "G2": "NOT_AVAILABLE",
+        "G3": "PASS",
+        "G4": "PASS"
+      },
+      "input_pairing": "BYTE_IDENTICAL_TO_BATCH_NORMALIZED_INPUT",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "melody",
+      "name": "03_Bach - Cello Suite No.3 BWV1009_MELODY_Cello_R100",
+      "score": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/GSTE_TAB.musicxml",
+      "report": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/CONVERSION_REPORT.md",
+      "sha256": "17333b31bc9f17fdb61040164dd7e8e37e7ca7e5b576621f564e596be7aca839",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "CARRIED_FORWARD_VERIFIED_SOURCE",
+      "input_files": [
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/SOURCE_LICENSE.md",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/cellosuite3-lys.zip",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/cellosuite3-mids.zip",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/reference_full_score.musicxml",
+        "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/source/license_evidence/header.ily"
+      ],
+      "source_license": "melody/03_Bach_-_Cello_Suite_No.3_BWV1009_MELODY_Cello_R100/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "gates": {
+        "G1": "PASS",
+        "G2": "REVIEW",
+        "G3": "PASS",
+        "G4": "PASS"
+      },
+      "input_pairing": "BYTE_IDENTICAL_TO_BATCH_NORMALIZED_INPUT",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "melody",
+      "name": "04_Bach - Cello Suite No.4 BWV1010_MELODY_Cello_R100",
+      "score": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/GSTE_TAB.musicxml",
+      "report": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/CONVERSION_REPORT.md",
+      "sha256": "b3254c5e378e4fb23f8a06f4f2ebe38a346c7dd53933375ce19d58eaa3508a9d",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "CARRIED_FORWARD_VERIFIED_SOURCE",
+      "input_files": [
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/SOURCE_LICENSE.md",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/bwv1010-lys.zip",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/reference_full_score.musicxml",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/bwv1010-mids.zip",
+        "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/source/license_evidence/header.ily"
+      ],
+      "source_license": "melody/04_Bach_-_Cello_Suite_No.4_BWV1010_MELODY_Cello_R100/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "gates": {
+        "G1": "PASS",
+        "G2": "REVIEW",
+        "G3": "PASS",
+        "G4": "PASS"
+      },
+      "input_pairing": "BYTE_IDENTICAL_TO_BATCH_NORMALIZED_INPUT",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "melody",
+      "name": "05_Bach - Cello Suite No.5 BWV1011_MELODY_Cello_R100",
+      "score": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/GSTE_TAB.musicxml",
+      "report": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/CONVERSION_REPORT.md",
+      "sha256": "4bf1695826f26b680421cd8327076743e99e87fc507d346f2f285f5e99e1b45e",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "CARRIED_FORWARD_VERIFIED_SOURCE",
+      "input_files": [
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/SOURCE_LICENSE.md",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/bwv1011-lys.zip",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/SOURCE_INFO.txt",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/reference_full_score.musicxml",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/bwv1011-mids.zip",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/license_evidence/bwv1011.ly",
+        "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/source/license_evidence/bwv1011-viola_original.ly"
+      ],
+      "source_license": "melody/05_Bach_-_Cello_Suite_No.5_BWV1011_MELODY_Cello_R100/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "gates": {
+        "G1": "PASS",
+        "G2": "REVIEW",
+        "G3": "PASS",
+        "G4": "PASS"
+      },
+      "input_pairing": "BYTE_IDENTICAL_TO_BATCH_NORMALIZED_INPUT",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "melody",
+      "name": "06_Mozart - Violin Sonata K.379_MELODY_Violin_R100",
+      "score": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/GSTE_TAB.musicxml",
+      "report": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/CONVERSION_REPORT.md",
+      "sha256": "f0b7fc939c3d57349bf21fa63f357ee88d3852af325f92efcc66c57f656c1223",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "CARRIED_FORWARD_VERIFIED_SOURCE",
+      "input_files": [
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/SOURCE_LICENSE.md",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/k379-lys.zip",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/k379-mids.zip",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/SOURCE_INFO.txt",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/reference_full_score.musicxml",
+        "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/source/license_evidence/k379-header.ly"
+      ],
+      "source_license": "melody/06_Mozart_-_Violin_Sonata_K.379_MELODY_Violin_R100/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "gates": {
+        "G1": "PASS",
+        "G2": "PASS",
+        "G3": "PASS",
+        "G4": "PASS"
+      },
+      "input_pairing": "BYTE_IDENTICAL_TO_BATCH_NORMALIZED_INPUT",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "melody",
+      "name": "Beethoven_FurElise_RH_Measure_1-80",
+      "score": "melody/Beethoven_FurElise_RH_Measure_1-80/GSTE_TAB.musicxml",
+      "report": "melody/Beethoven_FurElise_RH_Measure_1-80/CONVERSION_REPORT.md",
+      "sha256": "40b4c943c9a358467bee55f6fd77b25cf431168c0089fc42b445384f8069320a",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "CARRIED_FORWARD_VERIFIED_SOURCE",
+      "input_files": [
+        "melody/Beethoven_FurElise_RH_Measure_1-80/input/input_melody.musicxml"
+      ],
+      "source_files": [
+        "melody/Beethoven_FurElise_RH_Measure_1-80/SOURCE_LICENSE.md",
+        "melody/Beethoven_FurElise_RH_Measure_1-80/source/Beethoven_FurElise_original.musicxml",
+        "melody/Beethoven_FurElise_RH_Measure_1-80/source/SOURCE_INFO.txt"
+      ],
+      "source_license": "melody/Beethoven_FurElise_RH_Measure_1-80/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "gates": {
+        "G1": "PASS",
+        "G2": "REVIEW",
+        "G3": "PASS",
+        "G4": "PASS"
+      },
+      "input_pairing": "BYTE_IDENTICAL_TO_BATCH_NORMALIZED_INPUT",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "piano",
+      "name": "03_Beethoven_FurElise_1-80",
+      "score": "piano/03_Beethoven_FurElise_1-80/GSTE_TAB.musicxml",
+      "report": "piano/03_Beethoven_FurElise_1-80/CONVERSION_REPORT.md",
+      "sha256": "d29ebbc3779c94af3cd97b2375d5376ffa710bd412c45302f7d036d6fdbbb541",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "PUBLIC_DEMO_SOURCE_CLEARED",
+      "input_files": [
+        "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_LH_Measure_1-80.musicxml",
+        "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_RH_Measure_1-80.musicxml"
+      ],
+      "source_files": [
+        "piano/03_Beethoven_FurElise_1-80/input/Beethoven_FurElise_original.musicxml",
+        "piano/03_Beethoven_FurElise_1-80/input/SOURCE_INFO.txt",
+        "piano/03_Beethoven_FurElise_1-80/SOURCE_LICENSE.md"
+      ],
+      "source_license": "piano/03_Beethoven_FurElise_1-80/SOURCE_LICENSE.md",
+      "license_record": "DEMO_LICENSE_INDEX.json",
+      "engine_version": "0.3.0",
+      "input_pairing": "SUPPLIED_PIANO_REVIEW_PACKAGE"
+    },
+    {
+      "category": "ensemble",
+      "name": "01_Bach_BWV1017_Movement_2_Allegro",
+      "score": "ensemble/01_Bach_BWV1017_Movement_2_Allegro/GSTE_TAB.musicxml",
+      "report": "ensemble/01_Bach_BWV1017_Movement_2_Allegro/CONVERSION_REPORT.md",
+      "sha256": "3e1e063e5e4ae685c5bc9e0b3c543a9d7a3ae669f1def050f1d829da377e46af",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_PUBLIC_DOMAIN",
+      "input_files": [
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/input/Bass_Support_Keyboard_Lower.musicxml",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/input/Lead_Keyboard_Upper.musicxml",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/input/Melody_Violin.musicxml"
+      ],
+      "source_files": [
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/All_Roles.musicxml",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/PROVENANCE_VERIFICATION.json",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/ROLE_MAP.json",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/bwv1017-1.mid",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/bwv1017-2.mid",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/bwv1017-3.mid",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/bwv1017-a4.pdf",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/bwv1017-mids.zip",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/bwv1017.ly",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/bwv1017.mid",
+        "ensemble/01_Bach_BWV1017_Movement_2_Allegro/source/bwv1017.rdf"
+      ],
+      "source_license": "ensemble/01_Bach_BWV1017_Movement_2_Allegro/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "input_pairing": "PARSED_PITCH_ONSET_DURATION_MEASURE_MATCH",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "ensemble",
+      "name": "02_Bach_BWV1017_Movement_4_Allegro",
+      "score": "ensemble/02_Bach_BWV1017_Movement_4_Allegro/GSTE_TAB.musicxml",
+      "report": "ensemble/02_Bach_BWV1017_Movement_4_Allegro/CONVERSION_REPORT.md",
+      "sha256": "2d178e262695883fdc0578f44b8d21e38f9ff405df8738c1ad4beeb9e1b9cc80",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_PUBLIC_DOMAIN",
+      "input_files": [
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/input/Bass_Support_Keyboard_Lower.musicxml",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/input/Lead_Keyboard_Upper.musicxml",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/input/Melody_Violin.musicxml"
+      ],
+      "source_files": [
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/All_Roles.musicxml",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/PROVENANCE_VERIFICATION.json",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/ROLE_MAP.json",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/bwv1017-1.mid",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/bwv1017-2.mid",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/bwv1017-3.mid",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/bwv1017-a4.pdf",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/bwv1017-mids.zip",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/bwv1017.ly",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/bwv1017.mid",
+        "ensemble/02_Bach_BWV1017_Movement_4_Allegro/source/bwv1017.rdf"
+      ],
+      "source_license": "ensemble/02_Bach_BWV1017_Movement_4_Allegro/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "input_pairing": "PARSED_PITCH_ONSET_DURATION_MEASURE_MATCH",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    },
+    {
+      "category": "ensemble",
+      "name": "03_Schubert_Erlkonig_M57-148",
+      "score": "ensemble/03_Schubert_Erlkonig_M57-148/GSTE_TAB.musicxml",
+      "report": "ensemble/03_Schubert_Erlkonig_M57-148/CONVERSION_REPORT.md",
+      "sha256": "0be98546f1d886c4cfa835d71b2c314d24caccf36ddd87d54101897cff40050a",
+      "status": "CONVERSION_SUCCESS",
+      "quality_review": "NOT_VERIFIED",
+      "source_rights": "VERIFIED_CC_BY_4_0",
+      "input_files": [
+        "ensemble/03_Schubert_Erlkonig_M57-148/input/Bass_Piano_LH.musicxml",
+        "ensemble/03_Schubert_Erlkonig_M57-148/input/Guitar_Piano_RH.musicxml",
+        "ensemble/03_Schubert_Erlkonig_M57-148/input/Melody_Vocal.musicxml"
+      ],
+      "source_files": [
+        "ensemble/03_Schubert_Erlkonig_M57-148/source/All_Roles.musicxml",
+        "ensemble/03_Schubert_Erlkonig_M57-148/source/ORIGINAL_IDENTIFICATION.xml",
+        "ensemble/03_Schubert_Erlkonig_M57-148/source/PROVENANCE_VERIFICATION.json",
+        "ensemble/03_Schubert_Erlkonig_M57-148/source/ROLE_MAP.json",
+        "ensemble/03_Schubert_Erlkonig_M57-148/source/original_erlkonig.mxl"
+      ],
+      "source_license": "ensemble/03_Schubert_Erlkonig_M57-148/SOURCE_LICENSE.md",
+      "engine_version": "0.3.0",
+      "input_pairing": "PARSED_PITCH_ONSET_DURATION_MEASURE_MATCH",
+      "license_record": "DEMO_LICENSE_INDEX.json"
+    }
+  ]
+}

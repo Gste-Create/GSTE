@@ -1,0 +1,8 @@
+Work: Bach - Partita I BWV1002（第一號無伴奏小提琴組曲）
+Type: Violin solo
+Source: Mutopia
+Rights: Public Domain
+Extraction: solo violin
+
+- partita-1-lys.zip | https://www.mutopiaproject.org/ftp/BachJS/BWV1002/partita-1/partita-1-lys.zip | 23808 bytes
+- partita-1-mids.zip | https://www.mutopiaproject.org/ftp/BachJS/BWV1002/partita-1/partita-1-mids.zip | 24933 bytes

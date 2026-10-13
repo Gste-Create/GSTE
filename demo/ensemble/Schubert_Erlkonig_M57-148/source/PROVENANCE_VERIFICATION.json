@@ -1,0 +1,68 @@
+{
+  "original_identification": "<identification>\n    <creator type=\"composer\">J.Godderis</creator>\n    <rights>JIM Productions</rights>\n    <encoding>\n      <software>MuseScore 2.1.0</software>\n      <encoding-date>2017-08-09</encoding-date>\n      <supports element=\"accidental\" type=\"yes\" />\n      <supports element=\"beam\" type=\"yes\" />\n      <supports element=\"print\" attribute=\"new-page\" type=\"yes\" value=\"yes\" />\n      <supports element=\"print\" attribute=\"new-system\" type=\"yes\" value=\"yes\" />\n      <supports element=\"stem\" type=\"yes\" />\n      </encoding>\n    <source>http://musescore.com/jojo288/erlk-ning</source>\n    </identification>\n  ",
+  "excerpt_verification": [
+    {
+      "input": "Melody_Vocal.musicxml",
+      "source_part": "P1",
+      "staff": null,
+      "source_measures": [
+        57,
+        148
+      ],
+      "raw_note_structure_match": true
+    },
+    {
+      "input": "Guitar_Piano_RH.musicxml",
+      "source_part": "P2",
+      "staff": "1",
+      "source_measures": [
+        57,
+        148
+      ],
+      "raw_note_structure_match": true
+    },
+    {
+      "input": "Bass_Piano_LH.musicxml",
+      "source_part": "P2",
+      "staff": "2",
+      "source_measures": [
+        57,
+        148
+      ],
+      "raw_note_structure_match": true
+    }
+  ],
+  "page_license_metadata": {
+    "license": "cc-by",
+    "license_version": "4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_string": "<a href=\\"
+  },
+  "page_metadata_check_date": "2026-10-09",
+  "current_indexed_page_license": "Attribution",
+  "current_direct_page_fetch": "HTTP 403; earlier same-day metadata and current indexed statement retained",
+  "input_debug_verification": [
+    {
+      "output_archive": "團譜_魔王.zip",
+      "input": "Melody_Vocal.musicxml",
+      "notes": 261,
+      "debug_notes": 261,
+      "pitch_onset_duration_measure_match": true
+    },
+    {
+      "output_archive": "團譜_魔王.zip",
+      "input": "Guitar_Piano_RH.musicxml",
+      "notes": 1228,
+      "debug_notes": 1228,
+      "pitch_onset_duration_measure_match": true
+    },
+    {
+      "output_archive": "團譜_魔王.zip",
+      "input": "Bass_Piano_LH.musicxml",
+      "notes": 451,
+      "debug_notes": 451,
+      "pitch_onset_duration_measure_match": true
+    }
+  ],
+  "limitation": "Parsed pitch/onset/duration/measure verified; output musical quality and human fingering not certified. No byte identity claimed for a current upstream re-export."
+}

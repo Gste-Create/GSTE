@@ -1,0 +1,5 @@
+Work: Für Elise（給愛麗絲）
+Source: OpenScore mirror
+Rights note: CC0
+URL: https://raw.githubusercontent.com/sightreader/sheet-music/master/Beethoven%20-%20Bagatelle%20No.%2025%20%28Fur%20Elise%29.musicxml
+Validation: OK
