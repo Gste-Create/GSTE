@@ -1,0 +1,23 @@
+[
+  {
+    "role": "Melody_Vocal",
+    "source_part": "P1",
+    "source_staff": null,
+    "measures": 92,
+    "pitched_notes": 293
+  },
+  {
+    "role": "Guitar_Piano_RH",
+    "source_part": "P2",
+    "source_staff": "1",
+    "measures": 92,
+    "pitched_notes": 1228
+  },
+  {
+    "role": "Bass_Piano_LH",
+    "source_part": "P2",
+    "source_staff": "2",
+    "measures": 92,
+    "pitched_notes": 454
+  }
+]
