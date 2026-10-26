@@ -1,4 +1,4 @@
-# GSTE V0.3 — 報告判讀指南
+# GSTE V0.4 — 報告判讀指南
 
 先檢查最終樂譜與外層人工檢查報告。報告記錄觀察結果，不會再次決定編曲。
 
@@ -15,11 +15,20 @@ G3 檢查匯出完整度；指法需另查 `04_FINAL_FINGERING_REVIEW` 等物理
 
 ## 閱讀順序
 
-1. 閱讀 `CONVERSION_REPORT.md` 或 `ERROR_REPORT.md`，確認狀態與直接證據。
-2. 以 `HUMAN_REVIEW_REPORT.md` 與 `MEASURE_LOCATION_GUIDE.md` 找出需要核對的位置。
-3. 需要詳細診斷時，查看 `debug/00_GSTE_INTEGRITY_GATE.json` 與 `UNIFIED_RUNTIME_MONITOR.json` 的個別結果；檔案也可能位於 `debug/pipeline_output/`。
-4. 比較來源伴奏分析、編曲候選、聯合選取、最終檢查與最終六線譜，找出首次刪減或改變的位置。
+1. 閱讀 `GSTE_TAB` 確認轉換樂譜音樂性語可彈性
+2. 閱讀 `CONVERSION_REPORT.md` 或 `ERROR_REPORT.md`，確認狀態與直接證據。
+3. 以 `HUMAN_REVIEW_REPORT.md` 與 `MEASURE_LOCATION_GUIDE.md` 找出需要核對的位置。
+4. 需要詳細診斷時，查看 `debug/00_GSTE_INTEGRITY_GATE.json` 與 `UNIFIED_RUNTIME_MONITOR.json` 的個別結果；檔案也可能位於 `debug/pipeline_output/`。
+5. 比較來源伴奏分析、編曲候選、聯合選取、最終檢查與最終六線譜，找出首次刪減或改變的位置。
 
 `pattern_type` 與三連音標籤代表局部辨識，不保證整組保留。來源音符、候選、入選事件與最終音符屬於不同群體，不能將各階段數量互當保留率分母。應比較來源識別、起音、選定八度與最終實際發聲音。
 
 即使檢查通過，也應核對旋律、伴奏節奏、和聲、連接、延音、休止、指法與譜面。問題回報可先提供允許分享的精簡摘要；音樂品質問題可能仍需經授權的最小樂譜片段。
+
+## 一般編曲與開發除錯的區別
+
+一般編曲優先使用樂譜播放、原始音軌比對與 GAR 指法索引。`EVENT_LIFECYCLE_TRACE`、`GSTE_NOTATION_MAP`、`GSTE_EDITOR_CONTEXT` 等診斷／對應資料主要協助開發與問題追查，不要求一般使用者逐筆閱讀；如要回報 Bug，可依情況提供經過隱私檢查的最小重現資料。
+
+## 候選錯誤位置與根因
+
+全域移調或八度搜尋的拒絕位置不一定是唯一真正錯誤小節；不同候選可能在不同位置失敗。請先比對原譜小節與選段序號，再依音域與指法限制人工確認。報告的 PASS 不等於音樂性驗證。

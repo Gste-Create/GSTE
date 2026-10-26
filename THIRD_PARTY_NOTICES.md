@@ -1,6 +1,6 @@
-# GSTE V0.3 — Third-Party Notices
+# GSTE V0.4 beta — Third-Party Notices
 
-This inventory describes the components included in the supplied Windows portable distribution. Third-party components remain subject to their respective licenses. GSTE's terms of use do not replace or restrict the rights granted by those licenses. Source licenses for demo scores are documented separately in each piece's `SOURCE_LICENSE.md`.
+This inventory describes the components included in the previously inspected Windows distribution (V0.3); verify bundled component versions again for the V0.4 installer. Third-party components remain subject to their respective licenses. GSTE's terms of use do not replace or restrict the rights granted by those licenses. Source licenses for demo scores are documented separately in each piece's `SOURCE_LICENSE.md`.
 
 | Component | Version | Purpose | License |
 |---|---|---|---|

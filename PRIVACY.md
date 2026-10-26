@@ -1,8 +1,8 @@
-# GSTE V0.3 隱私說明 / Privacy Notice
+# GSTE V0.4 beta 隱私說明 / Privacy Notice
 
 ## 中文
 ### 本機處理
-GSTE V0.3 的正常樂譜轉換流程在使用者電腦本機執行，不需要將輸入樂譜提交給 AI。此版本不提供帳號、telemetry、analytics、crash upload 或雲端樂譜處理功能。
+GSTE V0.4 beta 的正常樂譜轉換流程在使用者電腦本機執行，不需要將輸入樂譜提交給 AI。此版本不提供帳號、telemetry、analytics、crash upload 或雲端樂譜處理功能。
 
 ### 問題回報與診斷
 公開 GitHub Issues、Discussions 或 Pull Requests 應視為公開內容。請勿提交個人敏感資訊、登入憑證、公司機密、無權公開的原始碼或樂譜。
@@ -18,7 +18,7 @@ GSTE 執行轉換本身不依賴 AI。專案開發、程式 review、除錯、�
 
 ## English
 ### Local processing
-Normal score conversion in GSTE V0.3 runs locally on the user's computer and does not require submitting the input score to AI. This release does not provide accounts, telemetry, analytics, crash upload, or cloud score processing.
+Normal score conversion in GSTE V0.4 beta runs locally on the user's computer and does not require submitting the input score to AI. This release does not provide accounts, telemetry, analytics, crash upload, or cloud score processing.
 
 ### Issue reports and diagnostics
 Information posted to public GitHub Issues, Discussions, or Pull Requests should be treated as public. Do not submit sensitive personal information, credentials, confidential company data, proprietary source code, or scores you are not authorized to share.
@@ -38,3 +38,17 @@ If future releases add network transmission, accounts, telemetry, analytics, or 
 `HUMAN_REVIEW_REPORT.md`、`MEASURE_LOCATION_GUIDE.md`、`ERROR_REPORT.md`、最終／中間樂譜與完整 `debug/` 不列為預設可分享的精簡檔。原始錯誤文字可能含路徑；位置對照可能揭露來源小節。精簡檔仍須由使用者確認。詳見 [分享指南](docs/user/SHARING_GUIDE.md)。
 
 Human-review, measure-location, error reports, scores and full diagnostics are not reduced safe-sharing attachments by default. Error strings can contain paths and location maps can expose source numbering. Review reduced reports too.
+
+
+---
+
+## 日本語
+
+### ローカル処理
+GSTE V0.4 beta の通常の変換は利用者の PC 内で実行されます。この版はアカウント、テレメトリー、利用解析、クラッシュの自動アップロード、クラウドでの楽譜処理を提供しません。
+
+### 診断情報の共有
+GitHub の公開 Issue 等は公開情報として扱ってください。`PRIVACY_SAFE_DEBUG_REPORT.md` は共有向けに情報を制限したレポートで、曲名、ファイル名・パス、音高、和音、音符・リズム列、歌詞、トラック名、元のイベント ID、音楽候補とパラメータ値などを除外する設計です。ただし共有前の確認が必要で、法的な秘密保持認証ではありません。`debug/` 全体には詳細な情報が含まれる場合があります。
+
+### AI
+通常の変換は AI を必要としません。提出した楽譜を第三者 AI に提供するには、その都度明示的な同意が必要です。今後ネットワーク送信やクラウド機能を追加する場合、公開前にこの文書を更新する必要があります。

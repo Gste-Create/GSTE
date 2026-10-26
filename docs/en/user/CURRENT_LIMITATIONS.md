@@ -1,11 +1,18 @@
-# GSTE V0.3 — Current Limitations
+# GSTE V0.4 — Current Limitations
 
-- **Input:** the GUI uses uncompressed MusicXML. End-to-end MIDI support is not provided. Prepare aligned separate files for multiple tracks.
-- **Ensemble:** the experimental mode provides up to four GUITAR/BASS accompaniment slots. Broader fusion quality needs testing across pieces. Results may vary with the accompaniment configuration and available source material.
-- **Piano source material:** source-pitch constraints and per-measure octave shifts do not guarantee retention of every attack or duration. Octave selection is not globally optimized for fingering.
-- **Rhythm and patterns:** recognition does not guarantee complete understanding or preservation of irregular meter, syncopation, pickups, long riffs or phrases crossing analysis windows.
-- **Tonality and harmony:** relative major/minor decisions can be close. Complete local-modulation, cadence and harmonic reasoning is not yet optimized.
-- **Musical quality:** material may be reduced. Accompaniment density, hand shapes, positions and transitions require listening and playing.
-- **Language:** the GUI supports Chinese and English; new outer human-review reports are mainly Chinese.
+- **Input:** The GUI uses uncompressed MusicXML; full MIDI input conversion is not supported. Multitrack input requires separately prepared, aligned files.
+- **Ensemble scores:** The experimental mode provides up to four guitar/bass accompaniment fields; the ensemble piano option is hidden. Multitrack fusion needs further testing across more pieces, and quality may vary with accompaniment configuration and source material.
+- **Piano source material:** Source-note constraints and per-measure octave shifts do not guarantee preservation of every onset or sustain. Octave selection is not yet globally optimized for hand positions.
+- **Rhythm and patterns:** Recognition does not guarantee full understanding or preservation of irregular meters, syncopation, pickups, long-period phrases, or phrases spanning analysis segments.
+- **Key and harmony:** Relative major and minor keys may receive similar assessments. Full local modulation, cadence, and harmonic reasoning are not yet optimized.
+- **Musical quality:** Material may be omitted. Accompaniment density, fingering, positions, and transitions still require human listening and performance checks.
+- **Language:** The GUI supports Traditional Chinese, English, and Japanese. Report summaries may follow the interface language, while raw technical diagnostics may still contain English codes or untranslated content.
 
-Check converted scores through playback in your score reader and manual performance.
+Play the converted score in notation software and verify it through human performance.
+
+## Additional V0.4 beta / GAR Limitations
+
+- GAR is currently a **read-only** arrangement reference index, not a mature editor capable of directly applying fingerings, locally recalculating arrangements, or providing full notation editing.
+- Fingering and accompaniment templates are references only and have not undergone full GSTE Joint validation. Performability, rhythm, and musicality must be checked manually.
+- Ensemble mode provides up to four accompaniment fields; starting with one or two tracks is recommended. Even two tracks may cause substantial compression of musical information.
+- This release does not claim across-the-board improvements over V0.3 in automatic arrangement algorithms, musicality, or demo quality.

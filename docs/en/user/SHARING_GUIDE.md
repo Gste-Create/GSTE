@@ -1,13 +1,13 @@
-# GSTE V0.3 — Sharing Guide
+# GSTE V0.4 — File Sharing Guide
 
-Normal conversion does not automatically upload scores to AI. Attachments to public issues are public. To avoid disclosing music, start with a suitable problem description and an allow-list summary rather than the entire output ZIP.
+Normal conversion does not automatically upload scores to AI services. Attachments to public issue reports will also be public. If you do not want to disclose musical content, first provide an appropriate problem description and allowlisted summary rather than the entire output ZIP.
 
-| File | Guidance |
+| File | Recommendation |
 |---|---|
-| `PRIVACY_SAFE_DEBUG_REPORT.md` | Preferred first attachment; inspect its contents first. |
-| `EVENT_LIFECYCLE_TRACE.md` | Reduced lifecycle data; confirm it is suitable to share. |
-| `CONVERSION_REPORT.md` / `ERROR_REPORT.md` | Inspect first; errors may contain paths, locations or source text. |
-| `HUMAN_REVIEW_REPORT.md` / `MEASURE_LOCATION_GUIDE.md` | Contain locations and evidence links; not privacy-safe summaries. |
-| Source scores, final scores, screenshots, `debug/`, source-pitch audits | May expose pitches, rhythms, chords, source identities and complete musical content. |
+| `PRIVACY_SAFE_DEBUG_REPORT.md` | Share first, but inspect its contents beforehand. |
+| `EVENT_LIFECYCLE_TRACE.md` | Concise lifecycle data; share only after confirming it is within the permitted scope. |
+| `CONVERSION_REPORT.md` / `ERROR_REPORT.md` | Inspect first; errors may include paths, locations, or source text. |
+| `HUMAN_REVIEW_REPORT.md` / `MEASURE_LOCATION_GUIDE.md` | Contain locations and evidence links; not privacy summaries. |
+| Original score, final score, screenshots, `debug/`, source-note audit | May disclose pitches, rhythms, chords, source identifiers, and complete musical content. |
 
-Submitting a score does not authorize third-party AI analysis. State your choice under the [Issue Reporting Guide](ISSUE_REPORT_GUIDE.md). Without explicit consent, maintainers must not use submitted scores for AI-assisted analysis. Reduced reports support initial engineering triage but may not resolve musical-quality questions.
+Submitting a score does not imply consent to third-party AI analysis. Make an explicit choice according to the [Issue Reporting Guide](ISSUE_REPORT_GUIDE.md). Without explicit consent, maintainers must not use submitted scores for AI-assisted analysis. Concise reports can assist initial diagnosis of engineering problems but may not be sufficient to assess musical quality.

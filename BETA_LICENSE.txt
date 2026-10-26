@@ -1,12 +1,12 @@
 GSTE Public Beta 使用條款 / Terms of Use
 
-版本 / Version: V0.3
+版本 / Version: V0.4
 
 > 第三方元件依其各自授權條款提供；詳見 THIRD_PARTY_NOTICES.md。 / Third-party components remain subject to their own licenses; see THIRD_PARTY_NOTICES.md.
 
 中文
 #1. 適用範圍
-本條款適用於 GSTE 專案維護者發布的 GSTE V0.3 可執行版本。本可執行版本並非開源發布，本條款不授予 GSTE 原始碼授權。
+本條款適用於 GSTE 專案維護者發布的 GSTE V0.4 beta 可執行版本。本可執行版本並非開源發布，本條款不授予 GSTE 原始碼授權。
 
 #2. Beta 使用授權
 在遵守本條款前提下，使用者可安裝及使用 Beta 軟體進行個人評估、測試、研究、教育及內部評估。Beta 屬實驗性版本，不應用於安全關鍵、任務關鍵或正式生產用途。
@@ -31,7 +31,7 @@ GSTE Public Beta 使用條款 / Terms of Use
 
 English
 #1. Scope
-These terms apply to the executable GSTE V0.3 distributed by the GSTE project maintainer. This executable release is not an open-source release, and these terms do not grant a license to the GSTE source code.
+These terms apply to the executable GSTE V0.4 beta distributed by the GSTE project maintainer. This executable release is not an open-source release, and these terms do not grant a license to the GSTE source code.
 
 #2. Beta use
 Subject to these terms, users may install and use the Beta for personal evaluation, testing, research, education, and internal evaluation. The Beta is experimental and should not be used for safety-critical, mission-critical, or production purposes.
@@ -53,3 +53,17 @@ Third-party components remain subject to their own licenses. Where those license
 
 #8. Disclaimer and limitation of liability
 To the maximum extent permitted by applicable law, the Beta is provided “as is” without warranties of merchantability, fitness for a particular purpose, correctness, non-infringement, or error-free operation. The maintainer is not liable for indirect, incidental, special, consequential, or punitive damages, or loss of data, profits, business, or opportunity, except where such limitations cannot legally apply.
+
+
+日本語（利用条件の案内）
+
+
+本条件は、GSTE プロジェクト管理者が配布する GSTE V0.4 beta の実行形式に適用されます。実行形式の配布はソースコードのオープンソース公開を意味しません。
+
+利用者は条件に従い、個人的な評価、テスト、研究、教育および内部評価のために本 beta をインストール・使用できます。安全上または業務上の重要な用途を想定していません。適用法が明示的に許す場合を除き、許可のない販売、再許諾、貸与、商業的な再配布、インストーラーの無断再配布、権利表示の削除、権利者の虚偽表示、ソースコード復元を目的とするリバースエンジニアリングを禁止します。
+
+入力素材の権利は元の権利者に帰属します。利用者は、素材の使用・改変・公開・演奏・配布に必要な許諾を自ら確認してください。生成物には誤りや演奏困難な部分が含まれる可能性があり、人による確認が必要です。第三者コンポーネントには各ライセンスが優先して適用されます。
+
+任意に提供されたフィードバックは改善に利用される場合がありますが、楽譜の提出のみで第三者 AI による分析に同意したことにはなりません。適用法で認められる範囲において、本 beta は現状有姿で提供され、特定目的への適合性、正確性、非侵害性、無停止動作などは保証されません。責任制限は適用法の強行規定に従います。
+
+この日本語節は既存の利用条件の理解を助けるための翻訳です。公開に先立ち、必要に応じて法律専門家による確認を行ってください。

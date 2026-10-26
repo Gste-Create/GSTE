@@ -1,20 +1,26 @@
-# GSTE V0.3 — Input Modes and Roles
+# GSTE V0.4 — Input Modes and Roles
 
-| Mode | Required files | Accompaniment |
+| Mode | Required Files | Accompaniment Method |
 |---|---|---|
-| Melody + Auto | One melody | Generated |
-| Melody + None | One melody | None added |
-| Piano | Melody/right hand and accompaniment/left hand | Source analysis |
-| Ensemble | One melody and one to four accompaniment tracks | Role analysis and fusion |
+| Melody + automatic accompaniment | One melody file | Generated accompaniment |
+| Melody + no accompaniment | One melody file | No accompaniment added |
+| Piano | Melody/right hand and left hand/accompaniment | Source analysis |
+| Ensemble | Melody and one to four accompaniment tracks | Role analysis and fusion |
 
-## Ensemble guitar
+## Ensemble Guitar
 
-GUITAR is the guitar accompaniment role. Multiple guitar tracks are supported. The program analyzes strumming, arpeggios and other patterns from musical content rather than lead/rhythm labels. The melody remains a separate input.
+GUITAR is a guitar accompaniment role; multiple guitar tracks may be provided. Strumming, arpeggios, and other patterns are analyzed from musical content, not determined by a lead/rhythm guitar label. The melody must still be provided in a separate file.
 
-Place important accompaniment in earlier slots. The program applies a fixed weight to each slot, then combines it with role weights and analysis confidence during fusion. These weights are not note-retention percentages or guarantees of complete track preservation. Tracks retain distinct source identities, but fusion may reduce conflicting material. Selecting GUITAR does not guarantee literal preservation of every strum, arpeggio or flourish.
+Each track receives fixed Harmony/Bass/Texture/Rhythm weights according to its instrument role before accompaniment analysis and fusion. Weights are not note-retention percentages and do not guarantee preservation of an entire track. Source identification distinguishes tracks, but fusion may remove conflicting material. Assigning GUITAR does not guarantee that every strum, arpeggio, or flourish is preserved unchanged.
 
-## Piano source-pitch policy
+## Piano Source-Note Policy
 
-Piano uses `SOURCE_AT_ATTACK` by default: accompaniment pitch candidates are constrained by source pitches at that attack, with a shared octave shift per physical measure. Attacks and notes may be reduced, and durations may be shortened. Octave selection is based on range rather than global fingering optimization.
+Piano defaults to `SOURCE_AT_ATTACK`: accompaniment onset candidates are constrained to source notes at their onset, and the same physical measure uses a common octave shift. Onsets and notes may be omitted, and sustains shortened. Octave selection is based on range, not yet on globally optimized hand positions.
 
-Mandatory retention of at least one note at every source accompaniment attack, and phrase-wide or metric-group octave shifting, are unavailable. This Piano policy does not establish identical source-retention guarantees for every Ensemble track.
+There is currently no mechanism that forces at least one note to be retained at every source accompaniment onset, nor octave shifting for an entire phrase or beat group. This must not be interpreted as a guarantee of equivalent source preservation for every ensemble track.
+
+## V0.4 beta Ensemble Recommendations
+
+Ensemble conversion remains experimental; preservation of musicality must be checked manually.
+
+The ensemble interface accepts up to four GUITAR/BASS accompaniment tracks, but **starting with one or two tracks is recommended**. Prioritize the melody, essential bass notes, and the most important harmonic/rhythmic part. Even two tracks may cause substantial musical compression due to the range, polyphony, and hand-position constraints of a single guitar. Four tracks is an experimental input limit, **not a promise that all four parts will be preserved**. If results are unsatisfactory, adjust the source track separation and compare separate conversions rather than simply adding more tracks.

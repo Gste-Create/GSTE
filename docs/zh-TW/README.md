@@ -1,4 +1,4 @@
-# GSTE V0.3 — 文件索引
+# GSTE V0.4 beta — 文件索引
 
 - [安裝與操作](user/GETTING_STARTED.md)
 - [輸入模式與角色](user/INPUT_MODES.md)
@@ -12,3 +12,6 @@
 安裝方式：下載 EXE 安裝檔，完成安裝後透過程式捷徑啟動 GSTE。
 
 版本說明、示範資料、使用條款、隱私、人工智慧政策、支援及第三方元件授權，請參閱發行包內的對應文件。
+
+- [GAR 編曲索引（V0.4 beta 實驗功能）](user/GAR_GUIDE.md)
+- [V0.4 beta 更新說明](../../RELEASE_NOTES_V0.4_beta.md)
